@@ -10,15 +10,11 @@ h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.15;
 	color: #655d67;
-	margin: 1em 0 0;
+	margin: 1em 0;
 }
 
 h3 {
 	font-size: 125%;
-}
-
-.next-edition p {
-	margin-top: 0;
 }
 
 a {
@@ -66,7 +62,6 @@ footer {
 	border-bottom-right-radius: .5em;
 	border-bottom-left-radius: .5em;
 	padding-bottom: .5em;
-
 }
 
 .main-header__baseline {
@@ -82,18 +77,29 @@ footer {
 	padding: 1em;
 }
 
-.next-edition__header {
-	text-align: center;
-}
-
 .next-edition__next {
 	font-style: italic;
+	text-align: center;
 }
 
 .next-edition__next,
 .next-edition__title {
-	margin-top: 0;
+	margin: .25em 0;
 	color: white;
+}
+
+.next-edition__title {
+	margin-bottom: .25em;
+}
+
+.next-edition p {
+	font-size: 1.2em;
+	margin-top: 0;
+}
+
+.next-edition__date {
+	font-weight: 700;
+	text-align: center;
 }
 
 .call-for-speakers {

@@ -7,25 +7,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="author" href="humans.txt" />
 	<link href="http://fonts.googleapis.com/css?family=Lato:700italic" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/styles.css.min" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<header class="main-header" role="banner">
-			<img class="main-header__logo" src="img/aperoweb.png" alt="Apero Web Toulouse">
-			<p class="main-header__baseline font-face">Le rendez-vous des gens qui aiment faire le web sur Toulouse</p>
-		</header>
+
+	<header class="main-header" role="banner">
+		<img class="main-header__logo" src="img/aperoweb.png" alt="Apero Web Toulouse">
+		<p class="main-header__baseline font-face">Le rendez-vous des gens qui font le web sur Toulouse</p>
+	</header>
+
 		<section class="next-edition" role="main">
-
-		<header class="next-edition__header">
-				<h1 class="next-edition__next">Aperoweb #34</h1>
-				<p class="next-edition__date">Lundi 2 novembre 2015 à partir de 19h chez <a href="http://www.coworking-toulouse.com/event/aperoweb-34/">Etincelle CoWorking</a></p>
-				<h2 class="next-edition__title">Mettez de l'<abbr title="User eXperience">UX</abbr> dans votre gestion de projet</h2>
-				<p>Concevoir un bon produit en agence est un défi au quotidien. Retards, frustration des intervenants : difficile de réaliser une prestation satisfaisante pour toutes les parties — utilisateur, client et prestataire. Surtout quand on ne sait pas dire non&nbsp;!</p>
-				<p>Sébastien Alexandre, fort de ses expériences, nous propose une adaptation de la conception centrée utilisateur comme méthodologie de travail. De l'étude des besoins au développement, en passant par l'architecture de l'information et le design d'interface, ces différents processus peuvent nous aider à résoudre nos problèmes et aider à justifier nos choix sans perdre de vue la satisfaction de toutes les parties prenantes.</p>
-				<p><a href="https://twitter.com/graphidev">Sébastien Alexandre</a> est UX designer junior dans une agence web toulousaine, et possède un goût prononcé pour les publications scientifiques. </p>
-		</header>
-
+			<div class="container">
+				<header class="next-edition__header">
+						<h1 class="next-edition__next">Aperoweb #34</h1>
+						<p class="next-edition__date">Lundi 2 novembre 2015 à partir de 19h chez <a href="http://www.coworking-toulouse.com/event/aperoweb-34/">Etincelle CoWorking</a></p>
+						<p class="lead">
+						<a href="https://www.eventbrite.fr/e/billets-aperoweb-toulouse-34-lux-a-la-rescousse-de-la-gestion-de-projet-19118810878" class="btn">S'inscrire</a>
+						</p>
+					<h2 class="next-edition__title">Mettez de l'<abbr title="User eXperience">UX</abbr> dans votre gestion de projet</h2>
+					<p>Concevoir un bon produit en agence est un défi au quotidien. Retards, frustration des intervenants : difficile de réaliser une prestation satisfaisante pour toutes les parties — utilisateur, client et prestataire. Surtout quand on ne sait pas dire non&nbsp;!</p>
+					<p>Sébastien Alexandre, fort de ses expériences, nous propose une adaptation de la conception centrée utilisateur comme méthodologie de travail. De l'étude des besoins au développement, en passant par l'architecture de l'information et le design d'interface, ces différents processus peuvent nous aider à résoudre nos problèmes et aider à justifier nos choix sans perdre de vue la satisfaction de toutes les parties prenantes.</p>
+					<p><a href="https://twitter.com/graphidev">Sébastien Alexandre</a> est UX designer junior dans une agence web toulousaine, et possède un goût prononcé pour les publications scientifiques. </p>
+			</header>
+		</div>
 		<!-- FIN : next-edition définie -->
 		<!--
 
@@ -41,17 +45,15 @@
 		<!-- FIN : next-edition -->
 
 	<section id="appel-a-orateurs" class="call-for-speakers">
-		<span>
-			Vous travaillez dans le web ?
-			<a class="call-for-speakers__link" href="https://lite4.framapad.org/p/Aperoweb_tlse" title="proposez un sujet pour une future édition">Proposez un sujet</a>
-		</span>
-		<div class="twitter">
-			<p>
-				<a class="twitter__link" href="https://twitter.com/aperoweb_tlse">Suivez-nous sur Twitter</a>
-				<svg version="1.1" id="Twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	         y="0px" width="30px" height="30px" viewbox="60 -65 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-					<path style="fill:#2CAAE1;" d="M250,87.974c-7.358,3.264-15.267,5.469-23.566,6.461c8.471-5.078,14.978-13.119,18.041-22.701
-	        c-7.929,4.703-16.71,8.117-26.057,9.957c-7.484-7.975-18.148-12.957-29.95-12.957c-22.66,0-41.033,18.371-41.033,41.031
+		<div class="container">
+			<p>Vous travaillez dans le web ?</p>
+			<p><a class="btn call-for-speakers__link" href="https://lite4.framapad.org/p/Aperoweb_tlse" title="proposez un sujet pour une future édition">Proposez un sujet</a></p>
+
+			<div class="twitter">
+				<p>
+					<a class="twitter__link" href="https://twitter.com/aperoweb_tlse">Suivez-nous sur Twitter</a>
+					<svg version="1.1" id="Twitter-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="60 -65 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve"><path style="fill:#2CAAE1;" d="M250,87.974c-7.358,3.264-15.267,5.469-23.566,6.461c8.471-5.078,14.978-13.119,18.041-22.701
+					c-7.929,4.703-16.71,8.117-26.057,9.957c-7.484-7.975-18.148-12.957-29.95-12.957c-22.66,0-41.033,18.371-41.033,41.031
 	        c0,3.216,0.363,6.348,1.062,9.351c-34.102-1.711-64.336-18.047-84.574-42.872c-3.532,6.06-5.556,13.108-5.556,20.628
 	        c0,14.236,7.244,26.795,18.254,34.153c-6.726-0.213-13.053-2.059-18.585-5.132c-0.004,0.171-0.004,0.343-0.004,0.516
 	        c0,19.88,14.144,36.464,32.915,40.234c-3.443,0.938-7.068,1.439-10.81,1.439c-2.644,0-5.214-0.258-7.72-0.736
@@ -62,17 +64,17 @@
 			</p>
 		</div>
 
-		<p>
-			<a class="call-for-speakers__link" href="http://eepurl.com/zpnJv">Abonnez-vous à la lettre d'information</a>
-		</p>
-
+			<p>
+				<a class="call-for-speakers__link" href="http://eepurl.com/zpnJv">Abonnez-vous à la lettre d'information</a>
+			</p>
+		</div>
 	</section>
 	<!-- FIN : appel-a-orateurs -->
 
-	<hr />
-
 	<section class="previous-editions" role="complementary">
-		<h2>Éditions précédentes</h2>
+		<div class="container">
+
+		<h2>Résumé des épisodes précédents</h2>
 		<ul class="previous-editions">
 			<li class="previous-edition">05/10/2015 : #33 — Débrief Parisweb et distribution de goodies au Four Monkeys.</li>
 			<li class="previous-edition">22/09/2015 : #32 — Metaperoweb animé par <a href="https://twitter.com/dmathieu">Damien Mathieu</a> chez Etincelle Coworking.</li>
@@ -270,11 +272,11 @@
 				<cite>Initial commit</cite>	- El Déséo Café
 			</li>
 		</ul>
+		</div>
 	</section>
 	<!-- FIN : previous-editions -->
 	<footer class="main-footer" role="contentinfo">
-		<a href="https://twitter.com/aperoweb_tlse">Contact</a>
+		<a class="btn" href="https://twitter.com/aperoweb_tlse">Contact</a>
 	</footer>
-</div>
 </body>
 </html>

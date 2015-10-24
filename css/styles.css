@@ -353,18 +353,17 @@ th {
   padding: 0; }
 
 body {
-  font: normal 120%/1.5 Georgia, serif;
+  font: normal 120%/1.5 "Roboto Slab", Georgia, serif;
   color: #39343A;
   margin: 0; }
 
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.15;
   color: #655d67;
   margin: 1em 0; }
 
-h2,
-.larger {
+h2 {
   font-size: 150%; }
 
 h3 {
@@ -374,7 +373,7 @@ p {
   margin-top: 0; }
 
 a {
-  color: #db2293; }
+  color: #f40999; }
 
 a:hover {
   text-decoration: none; }
@@ -386,15 +385,10 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   margin: 5em; }
 
-.font-face {
-  font-family: 'Lato', sans-serif; }
-
 .container {
   max-width: 40em;
+  padding: 0 1em;
   margin: 0 auto; }
-
-.main-header {
-  margin-bottom: 2em; }
 
 .main-footer {
   border-top: 1px solid #f6f6f6;
@@ -423,7 +417,8 @@ hr {
 
 .main-header__baseline {
   margin: 0;
-  font-style: italic; }
+  font-style: italic;
+  font-family: "Lato", sans-serif; }
 
 .next-edition {
   background: #39343A;
@@ -484,8 +479,11 @@ hr {
 
 .previous-editions {
   padding: 0;
-  margin: 0;
   list-style: none; }
+
+.previous-edition {
+  padding: .5em 0;
+  border-bottom: thin dashed #655d67; }
 
 .btn {
   display: inline-block;
@@ -498,10 +496,6 @@ hr {
 .btn:hover {
   background: rgba(219, 34, 147, 0.9);
   text-decoration: underline; }
-
-.previous-edition {
-  padding: .5em 0;
-  border-bottom: thin dashed #655d67; }
 
 .lead {
   text-align: center;

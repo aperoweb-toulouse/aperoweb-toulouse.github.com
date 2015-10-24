@@ -1,18 +1,20 @@
 @import "normalize";
 
 // Variables
+$headlines-font: 'Lato', sans-serif;
+$text-font: 'Roboto Slab', Georgia, serif;
 $dark-color: #39343A;
 $complementary-color: rgb(219, 34, 147);
 $twitter-blue: #2CAAE1;
 
 body {
-	font: normal 120%/1.5 Georgia, serif;
+	font: normal 120%/1.5 $text-font;
 	color : $dark-color;
 	margin: 0;
 }
 
 h1, h2, h3 {
-	font-family: 'Lato', sans-serif;
+	font-family: $headlines-font;
 	line-height: 1.15;
 	color: #655d67;
 	margin: 1em 0;
@@ -75,7 +77,7 @@ hr {
 .main-header__baseline {
 	margin: 0;
 	font-style: italic;
-	font-family: 'Lato', sans-serif;
+	font-family: $headlines-font;
 }
 
 .next-edition {

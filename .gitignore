@@ -3,6 +3,9 @@
 node_modules
 .nvmrc
 
+# Jekyll
+_site
+
 # Styles
 .sass-cache
 css/styles.css

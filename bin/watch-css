@@ -1,1 +1,1 @@
-nodemon -e scss -x "npm run build-css && npm run clean-css"
+nodemon -e scss -x "npm run clean-css"

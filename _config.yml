@@ -1,1 +1,17 @@
+title:               Aperoweb Toulouse
+tagline:             Le rendez-vous des gens qui font le web sur Toulouse
+baseurl:             ""
+
 exclude: [bin, node_modules, package.json, LICENSE, README.md]
+
+sass:
+    sass_dir: _sass
+    style:    :compressed
+
+google_analytics_id: UA-69372239-1
+twitter_profile:    "@aperoweb_tlse"
+
+author:
+  name:              Frank Taillandier
+  url:               https://twitter.com/dirtyf
+  email:             frank.taillandier@gmail.com

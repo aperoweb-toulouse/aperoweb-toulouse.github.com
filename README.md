@@ -2,21 +2,27 @@
 
 [http://toulouse.aperoweb.fr](http://toulouse.aperoweb.fr)
 
-Le rendez-vous des gens qui font le web sur Toulouse
+Le rendez-vous des gens qui font le web sur Toulouse.
 
 ## Développer localement
 
-1. Installer les dépendances
+[Github Pages](https://pages.github.com/) se base sur [jekyll](http://jekyllrb.com/) pour générer des contenus statiques.
 
-```
-bundle install
-```
+Vous devez donc avoir une version de  [Ruby](https://www.ruby-lang.org/fr/documentation/installation/ "Installer Ruby") fonctionnelle sur votre machine.
 
-2. Régénérer le site après chaque édition de fichier
+Une fois le dépôt cloné chez vous :
 
-```
-bundle exec jekyll serve --watch
-```
+1. Installez toutes les dépendances avec la commande :
+
+    ```
+    bundle install
+    ```
+
+2. Régénérez le site après chaque édition de fichier et voir les changements à l'adresse `http://localhost:4000`
+
+    ```
+    bundle exec jekyll serve --watch
+    ```
 
 ## Licence
 

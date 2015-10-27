@@ -1,0 +1,133 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@import "normalize";
+@import"bourbon/bourbon";
+@import"base/base";
+@import"neat/neat";
+
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid $whitesmoke;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 4*$base-spacing;
+}
+
+.narrowed {
+	@include outer-container();
+	padding: 0 $base-spacing;
+}
+
+.lead {
+	text-align: center;
+	margin: 2*$base-spacing;
+}
+
+.main-footer {
+	border-top: 1px solid $whitesmoke;
+	margin-top: 3*$base-spacing;
+}
+
+.main-header,
+.main-footer {
+	background: $whitesmoke;
+	@include background-image(linear-gradient(#fdfdfd 0, $whitesmoke 100%, transparent 100%));
+	padding: $base-spacing 0;
+}
+
+.main-header__logo,
+.main-header__baseline,
+.main-footer {
+	text-align: center;
+}
+
+.main-header__logo {
+	margin: 0;
+}
+
+.main-header__baseline {
+	font-family: $heading-font-family;
+}
+
+.next-edition {
+	background: $dark-color;
+	position: relative;
+	color: $whitesmoke;
+	margin: 0 0 5*$base-spacing;
+	padding: $base-spacing 0;
+
+	a {
+		color: $complementary-dark-color;
+	}
+}
+
+.next-edition__next {
+	font-style: italic;
+	text-align: center;
+}
+
+.next-edition__next,
+.next-edition__title {
+	margin: $small-spacing 0;
+	color: $whitesmoke;
+}
+
+.next-edition__title {
+	margin-bottom: $small-spacing;
+}
+
+.next-edition__date {
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto 2*$base-spacing;
+	p {
+		margin: 0;
+	}
+}
+
+.presentation__date {
+	margin-bottom: 0;
+}
+
+.next-edition__title,
+.next-edition__speaker,
+.presentation__title,
+.presentation__speaker {
+	display: inline-block;
+}
+
+.presentation__speaker {
+	margin: 0 0 $small-spacing;
+}
+
+.presentation__summary {
+	margin-top: 0;
+}
+
+.previous-edition {
+	padding: $small-spacing 0;
+	border-bottom: thin dashed $headlines-color;
+}
+
+.btn {
+	@include button(flat, $action-color);
+	&:hover {
+		color: #fff;
+	}
+
+	&.complementary {
+		@include button(flat, $complementary-dark-color);
+	}
+
+}

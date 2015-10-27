@@ -6,9 +6,8 @@ node_modules
 # Jekyll
 _site
 
-# Styles
+# Sass
 .sass-cache
-css/styles.css
 
 # Logs
 logs

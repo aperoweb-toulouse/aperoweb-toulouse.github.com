@@ -4,7 +4,6 @@
   "description": "Site des aperoweb toulousains",
   "main": "index.html",
   "scripts": {
-    "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css",
     "clean-css": "./bin/clean-css"
   },

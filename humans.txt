@@ -17,9 +17,9 @@
   Twitter: @Varouschka
 
 /* SITE */
-  Last update: 2015/10/23
+  Last update: 2015/10/27
   Language: French
   Doctype: HTML5
-  Components: normalize, Sass
-  Software: git, Github Desktop, github-pages, Node.js
+  Components: normalize, Sass, Bourbon
+  Software: Github Desktop, github Pages, Jekyll
   IDE : Atom

@@ -21,7 +21,7 @@ Une fois le dépôt cloné chez vous :
 2. Régénérez le site après chaque édition de fichier et voir les changements à l'adresse `http://localhost:4000`
 
     ```
-    bundle exec jekyll serve --watch
+    foreman start
     ```
 
 ## Licence

@@ -10,6 +10,8 @@ sass:
 
 google_analytics_id: UA-69372239-1
 twitter_profile:    "@aperoweb_tlse"
+call_for_speaker:
+    url: http://goo.gl/forms/U5gQ9znhmY
 
 author:
   name:              Frank Taillandier

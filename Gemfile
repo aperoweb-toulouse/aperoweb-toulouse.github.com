@@ -1,6 +1,14 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'bourbon'
-gem 'neat'
-gem 'bitters'
-gem 'foreman'
+
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
+
+group :development do
+    gem 'foreman'
+    gem 'bourbon'
+    gem 'neat'
+    gem 'bitters'
+end

@@ -34,6 +34,15 @@ hr {
 	margin: 1*$base-spacing;
 }
 
+.sold-out {
+	display: inline-block;
+	margin: 0 0 0 .5em;
+	padding: 0.15em .3em;
+	background-color: $action-color;
+	color: $base-background-color;
+	@include transform(rotate(11.25deg));
+}
+
 .main-footer {
 	border-top: 1px solid $whitesmoke;
 	margin-top: 3*$base-spacing;

@@ -3,9 +3,9 @@
 # only Main files contain this front matter, not partials.
 ---
 @import "normalize";
-@import"bourbon/bourbon";
-@import"base/base";
-@import"neat/neat";
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
 
 
 h2 {
@@ -96,7 +96,7 @@ hr {
 	margin-bottom: $small-spacing;
 }
 
-.next-edition__date {
+.next-edition__venue {
 	font-weight: 700;
 	text-align: center;
 	margin: 0 auto 2*$base-spacing;
@@ -105,15 +105,15 @@ hr {
 	}
 }
 
-.presentation__date {
-	margin-bottom: 0;
-}
-
 .next-edition__title,
 .next-edition__speaker,
 .presentation__title,
 .presentation__speaker {
 	display: inline-block;
+}
+
+.presentation__date {
+	margin-bottom: 0;
 }
 
 .presentation__speaker {

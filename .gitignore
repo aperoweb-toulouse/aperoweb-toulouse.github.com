@@ -1,7 +1,9 @@
 # Node.js
-# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 .nvmrc
+
+# Ruby
+Gemfile.lock
 
 # Jekyll
 _site
@@ -14,3 +16,6 @@ _site
 logs
 *.log
 npm-debug.log*
+
+# OSX
+.DS_Store

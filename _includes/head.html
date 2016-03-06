@@ -1,17 +1,16 @@
 <!doctype html>
 <html dir="ltr" lang="fr">
 <head>
+	{% if site.github.url %}
+  		{% assign url_base = site.github.url %}
+	{% else %}
+  		{% assign url_base = site.url %}
+	{% endif %}
 	<meta charset="utf-8">
-    <title>
-      {% if page.title == "Home" %}
-        {{ site.title }} &middot; {{ site.tagline }}
-      {% else %}
-        {{ page.title }} &middot; {{ site.title }}
-      {% endif %}
-    </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-	<link rel="author" href="humans.txt" />
+	{% seo %}
+	<link rel="stylesheet" href="{{ url_base }}/css/styles.css?v={{ site.github.build_revision }}">
+	<link type="text/plain" rel="author" href="{{ url_base }}/humans.txt" />
 	<link href="http://fonts.googleapis.com/css?family=Lato:700italic|Roboto+Slab:400" rel="stylesheet">
 	{% include analytics.html %}
 </head>

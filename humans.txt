@@ -13,13 +13,10 @@
   Host: Nathalie Rosenberg
   Twitter: @nrosenberg
 
-  Host: Vanessa Illmany
-  Twitter: @Varouschka
-
 /* SITE */
-  Last update: 2015/10/27
+  Last update: 2016/03/06
   Language: French
   Doctype: HTML5
   Components: normalize, Sass, Bourbon
-  Software: Github Desktop, github Pages, Jekyll
+  Software: Github Desktop, GitHub Pages, Jekyll
   IDE : Atom

@@ -1,9 +1,9 @@
 <header class="main-header" role="banner">
     <p class="main-header__logo">
-        <img src="img/aperoweb.png" alt="Apero Web Toulouse">
+        <img src="{{ site.baseurl }}/img/aperoweb.png" alt="Apero Web Toulouse">
     </p>
     <div class="narrowed">
-        <p class="main-header__baseline">{{ site.tagline }}</p>
+        <p class="main-header__baseline">{{ site.description }}</p>
         <p>Chaque premier lundi du mois, nous prenons un moment pour partager nos retours d'expériences et échanger entre professionnels du web.</p>
 
         <p class="lead">Vous avez obligatoirement des choses à dire.</p>
@@ -11,6 +11,6 @@
             <a href="{{ site.call_for_speaker.url }}" class="btn">Lancez vous</a>
         </p>
 
-        <p>Toutes les infos dans <a href="http://eepurl.com/zpnJv">notre lettre mensuelle</a> ou sur Twitter <a href="https://twitter.com/{{ site.twitter_profile }}">{{ site.twitter_profile }}</a> </p>
+        <p class="lead">Toutes les infos dans <a href="http://eepurl.com/zpnJv">notre lettre mensuelle</a> ou sur Twitter <a href="https://twitter.com/{{ site.twitter_profile }}">{{ site.twitter_profile }}</a> </p>
     </div>
 </header>

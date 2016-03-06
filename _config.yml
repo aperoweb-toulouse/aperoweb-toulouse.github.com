@@ -1,19 +1,42 @@
-title:               Aperoweb Toulouse
-tagline:             Le rendez-vous des gens qui font le web sur Toulouse
-baseurl:             ""
+# Config
+title: Apéroweb Toulouse
+description: "Le rendez-vous des gens qui font le web sur Toulouse"
+url: http://toulouse.aperoweb.fr
+baseurl: ""
+github:
+  url: http://localhost:4000
 
-exclude: [bin, node_modules, package.json, LICENSE, README.md]
+# SEO Tag
+author: aperoweb_tlse
+twitter:
+    username: "aperoweb_tlse"
+logo: /img/aperoweb.png
+
+# Social metadata (JSON-LD)
+social:
+  name: Apéroweb Toulouse
+  links:
+    - https://twitter.com/aperoweb_tlse
+    - https://github.com/aperoweb-toulouse
+
+call_for_speaker:
+    url: http://goo.gl/forms/U5gQ9znhmY
+
+analytics:
+    google:
+        tracking_id: UA-69372239-1
 
 sass:
     sass_dir: _sass
     style:    :compressed
 
-google_analytics_id: UA-69372239-1
-twitter_profile:    "@aperoweb_tlse"
-call_for_speaker:
-    url: http://goo.gl/forms/U5gQ9znhmY
+exclude:
+    - bin
+    - node_modules
+    - package.json
+    - LICENSE
+    - README.md
 
-author:
-  name:              Frank Taillandier
-  url:               https://twitter.com/dirtyf
-  email:             frank.taillandier@gmail.com
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

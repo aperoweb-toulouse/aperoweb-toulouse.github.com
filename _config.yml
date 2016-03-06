@@ -3,8 +3,6 @@ title: Apéroweb Toulouse
 description: "Le rendez-vous des gens qui font le web sur Toulouse"
 url: http://toulouse.aperoweb.fr
 baseurl: ""
-github:
-  url: http://localhost:4000
 
 # SEO Tag
 author: aperoweb_tlse

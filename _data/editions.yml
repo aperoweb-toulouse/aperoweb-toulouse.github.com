@@ -1,0 +1,208 @@
+- date: 2010-11-30
+  description: "Première édition au El Déséo Café"
+
+- date: 2011-01-21
+  description: "Développer des tests de suivi qualité avec <a href=\"//twitter.com/fabrice31\">Fabrice Bournisien</a> - invité : <a href=\"//twitter.com/eliesl\">Elie Sloïm</a>"
+  url: //twitter.com/fabrice31
+
+- date: 2011-02-21
+  description: "La Méthode SCRUM Claude Aubry à la Cantine - invité : Thomas Parisot"
+
+- date: 2011-03-29
+  description: "<cite>Manager une équipe</cite>  <a href=\"https://twitter.com/ltr\">Lionel Tressens</a> à la Cantine"
+  url: //twitter.com/ltr
+
+- date: 2011-04-20
+  talks:
+  - {
+      speaker: "Nicolas Dubois",
+      speaker_url: "//twitter.com/wo0dyn",
+      title: "Vers des langues de programmation",
+      description: "Au delà de la syntaxe, un langage de programmation implique bien d'autres savoirs.",
+      slides: "//fr.slideshare.net/duboisnicolas/vers-des-langues-de-programmation"
+    }
+
+- date: 2011-07-26
+  description: "Apéro au El Déséo Café"
+
+- date: 2011-09-15
+  description : "Coding Dojo Bowling avec Antoine Vernois chez X-Prime"
+
+- date: 2011-10-11
+  description : "Au revoir Yann Madeleine au El Deseo"
+
+- date: 2011-11-22
+  description : "Apéro à La Tireuse"
+
+- date: 2012-01-24
+  description : "Sous les toits au Florida"
+
+- date: 2012-02-24
+  description : "Apéro avec toute la Thym Sud Web 2012 au Connexion Café"
+
+- date: 2012-03-20
+  description : "Quiz au Dispensary"
+
+- date: 2012-04-04
+  description : "Apéro au London Town avec Raphael Goetter "
+
+- date: 2012-05-19
+  description : "Tireuse et restaurant"
+
+- date: 2012-07-27
+  description : "En bord de piscine au Pavé des minîmes"
+
+- date: 2012-09-18
+  description : "UTF et les Emojis par Xavier Mouton-Dubosc suivi de SASS & Compass avec Maxime Thirouin chez Occitech."
+  slides:
+  url: //moox.io
+
+- date: 2012-10-02
+  description : "Spécial calins avec Bastien Jaillot"
+
+- date: 2012-11-23
+  description : "Veillée Capitole du Libre et Djangocong Toulouse avec Paul Rouget, Nicolas Perriault, Matthieu Leplâtre, David Larlet, Stéphane Bortzmeyer et tout plein de geeks au Péry."
+
+- date: 2012-12-08
+  description : "Meetup UX #1 — Conférence sur le Persuasive Design par Gautier Barrère et démo de tests utilisateurs par Nicolas Klotz"
+
+- date: 2012-12-09
+  description : "Meetup UX #1 — Ateliers UX avec Gautier Barrère, Nicolas Klotz et Pierre-Antoine Nicolay"
+
+- date: 2013-01-23
+  description : "Toulouse JS #3 — une webapp MVC JS en prod par Hadrien Lanneau, intro à Grunt.js avec Maxime Thirouin et How Browsers Work par Paul Rouget"
+
+- date: 2013-03-07
+  description : "Sublime vs Vim avec Pierre Martin et Antoine Cezar chez Ekito"
+
+- date: 2013-04-04
+  talks:
+    - { speaker: "Raphaël Rougeron",
+        speaker_url: "//twitter.com/goldoraf",
+        title: "Tester son JS, c’est possible",
+        description: "Panorama des bonnes solutions d’outils de test en JavaScript pour les 3 niveaux de tests : unitaires, fonctionnels et d’intégration.",
+        slides: "http://fr.slideshare.net/goldoraf/tester-son-js"
+      }
+    - { speaker: "Maxime Thirouin",
+        speaker_url: "//moox.io",
+        title: "Future friendly CSS",
+        description: "Présentation de la méthodologie BEM (Block, Element, Modifier) visant à limiter la spécificité des sélecteurs et modulariser son code CSS, pour le rendre indépendant du HTML.",
+        slides: "//moox.io/slides/2013/future-friendly-css/#/"
+      }
+
+- date: 2013-05-07
+  talks:
+    - {
+        speaker: "Pierre Martin",
+        speaker_url: "//twitter.com/PierreMartin",
+        title: "Votre diplôme c'est vous",
+        description: "Trucs et astuces pour apprendre à apprendre",
+        slides: "//real34.github.io/slides/votre-diplome-cest-vous/"
+      }
+    - {
+        speaker: "Philippe Coste",
+        speaker_url: "//twitter.com/EpitechToulouse",
+        title: "Former aux métiers du web",
+        description: "Débat ouvert en présence de Christophe enseignant à l'INSA Toulouse"
+      }
+
+- date: 20/06/2013
+  description : "Spécial Vins aux Pieds sous la Table."
+
+- date: 11/07/2013
+  description : "Apéro d'été à la Fabrique."
+
+- date: 27/08/2013
+  description : "Apéro de pré-rentrée à la Comtesse."
+
+- date: 17/09/2013
+  description : "Apéro spécial sécurité et noms de domaine en présence de Stéphane Bortzmeyer à la Fabrique."
+
+- date: 13/03/2014
+  description : "Discussions avec Raphaël Goetter autour de CSS et des préprocessurs à la Tireuse."
+
+- date: 15/05/2014
+  description : "Apéro pré Sud Web 2014 avec plein de gens sympas au Downtown."
+
+- date: 30/10/2014
+  description : "Apéro en collaboration avec @ToulouseJS à l'EPITECH avec des présentations de @Moox et @ticabri."
+
+- date: 27/11/2014
+  description : "Apéro de rencontre à l'Atelier de l'Echarpe."
+
+- date: 19/12/2014
+  description : "Débat : Pourquoi si peu de designers et graphistes dans les projets open source ?"
+
+- date: 23/01/2015
+  description: "L’enseignement des rudiments du design : indispensable ou futile ? par Vanessa Illmany"
+  name: Vanessa Illmany
+  url: //twitter.com/Varouschka
+
+- date: 16/02/2015
+  name: Vanessa Illmany
+  url: //twitter.com/Varouschka
+  description: "Les bases du design pour les développeurs par Vanessa Illmany"
+
+- date: 31/07/2015
+  description: "En mode apéro au Four Monkeys"
+
+- date: 05/10/2015
+  description: "Débrief Parisweb et distribution de goodies au Four Monkeys."
+
+- date: 22/09/2015
+  description: "Metaperoweb animé par Damien Mathieu chez Etincelle Coworking."
+
+- date: 02/11/2015
+  talks:
+  - {
+      speaker: "Sébastien Alexandre",
+      speaker_url: "http://www.graphidev.fr/",
+      title: "Mettez de l'UX dans votre gestion de projet",
+      slides: "//www.graphidev.fr/journal/mettez-de-lux-dans-votre-gestion-de-projet"
+  }
+
+- date: 07/12/2015
+  talks:
+  - {
+      speaker: "Etienne Zulauf",
+      speaker_url: "//twitter.com/MrZoule",
+      title: "Les bonnes pratiques de la webperf",
+      slides: "//slides.com/occitech/webperfs/#/"
+  }
+
+- date: 04/01/2016
+  talks:
+  - {
+      speaker: "Bénédicte Schmidt",
+      speaker_url: "//www.linkedin.com/in/b%C3%A9n%C3%A9dicte-schmitt-23937994",
+      title: "Apprenez à faire évaluer votre produit par des utilisateurs",
+      slides: "//fr.slideshare.net/BndicteSchmitt/20160104-apero-webevaluationux" }
+
+- date: 01/02/2016
+  talks:
+  - {
+      speaker: "Maxime Thirouin",
+      speaker_url: "//moox.io",
+      title: "À L'ère de PostCSS",
+      description: "L'évolution de CSS des origines à nos jours.",
+      slides: "//speakerdeck.com/moox/post-css-era-des-feuilles-de-styles-preprocesses-aux-css-modules" }
+
+- date: 2016-03-07
+  talks:
+  - {
+      speaker: "Frank Taillandier",
+      speaker_url: "http://frank.taillandier.me",
+      title: "Keep it Static Stupid",
+      description: "Panorama de l'utilisation actuelle des gestionnaires de contenu statique.",
+      slides: "//speakerdeck.com/dirtyf/keep-it-static-stupid" }
+  register: https://nvite.com/aperoweb/d9d2
+
+- date: 2016-04-04
+  talks:
+  - {
+    speaker: "",
+    speaker_url: "",
+    title: "",
+    slides: "" }
+  register:
+  description: ""

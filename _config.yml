@@ -3,6 +3,7 @@ title: Apéroweb Toulouse
 description: "Le rendez-vous des gens qui font le web sur Toulouse"
 url: http://toulouse.aperoweb.fr
 baseurl: ""
+repository: aperoweb-toulouse/aperoweb-toulouse.github.com
 
 # SEO Tag
 author: aperoweb_tlse
@@ -34,7 +35,11 @@ exclude:
     - package.json
     - LICENSE
     - README.md
+    - Gemfile
+    - Gemfile.lock
+    - Procfile
 
 gems:
+  - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-sitemap

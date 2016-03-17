@@ -1,50 +1,34 @@
 ---
+layout: default
 title: Apéroweb Toulouse
-description: "Les gestionnaires de contenu statique : lundi 7 mars à 19h chez Etincelle Coworking aux Carmes"
+description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking aux Carmes"
 ---
 
-{% include head.html %}
+<header class="next-edition__header">
+{% assign edition = site.data.editions | last %}
 
-<body>
+<h1 class="next-edition__next">Prochain aperoweb : Lundi {{ edition.date | date: "%d/%m/%Y"}}</h1>
 
-	{% include header.html %}
+<div class="next-edition__venue">
+	<p>Rendez-vous à partir de 19h chez <a href="http://www.coworking-toulouse.com">Etincelle CoWorking</a> Carmes.</p>
+	<p>1 rue Bouquières, 31000 Toulouse. Métro : Carmes.</p>
+</div>
 
-		<main class="next-edition" role="main">
-			<div class="narrowed">
-				<header class="next-edition__header">
-					<h1 class="next-edition__next">Prochain aperoweb : Lundi 7 mars 2016</h1>
+<h2 class="next-edition__title">{{ edition.title | default: "En cours de préparation" }}</h2>
 
-					<p class="lead">Les places assises étant limitées, merci de <a href="#register">vous inscrire</a></p>
+{% if edition.name %}
+<h3 class="next-edition__speaker">animé par <a href="{{ edition.url }}">{{ edition.name }}</a></h3>
+{% endif %}
 
-					<div class="next-edition__venue">
-						<p>Rendez-vous à partir de 19h chez <a href="http://www.coworking-toulouse.com">Etincelle CoWorking</a>.</p>
-						<p>1 rue Bouquières, 31000 Toulouse. Métro : Carmes.</p>
-					</div>
+<div class="next-edition__description">
+	{{ edition.description }}
+</div>
 
-					<h2 class="next-edition__title">Les gestionnaires de contenus statiques</h2>
-					<h3 class="next-edition__speaker">animé par <a href="http://frank.taillandier.me">Frank Taillandier</a></h3>
+{% if edition.register %}
+<div id="register" class="lead">
+	<p><em>Gratuit et ouvert à tous</em></p>
+	<p><a href="{{ edition.register }}" class="btn complementary">Inscrivez-vous</a></p>
+</div>
+{% endif %}
 
-					<p>Les gestionnaires de contenus statiques ont le vent en poupe depuis quelques années déjà. Ils offrent en effet de multiples avantages : performance, sécurité, hébergement, coût de maintenance pour l'essentiel.</p>
-
-					<p>Utilisés par Google, Netflix ou Nodejs.org pour des sites proposant peu d'interactions avec les utilisateurs, leur efficacité n'est plus à prouver. Jekyll aura contribué à récolter 250 millions de dollar lors de la campagne de Barack Obama en 2012.</p>
-
-					<p>Ils sont aussi très intéressants à utiliser pendant les phases de prototypages.</p>
-
-					<p>Et vous que faites-vous avec votre gestionnaire de contenu statique ? Pour quels types de projets est-ce pertinent ? Quid de l'expérience utilisateur des contributeurs ?</p>
-
-					<p>Autant de questions auxquelles, nous vous proposons d'essayer de répondre ensemble. Si vous utilisez un gestionnaire de contenu, vous êtes cordialement invité à venir partager votre expérience.</p>
-
-					<div id="register" class="lead">
-						<p><em>Gratuit et ouvert à tous</em></p>
-						<p><a href="https://nvite.com/aperoweb/d9d2" class="btn complementary">Inscrivez-vous</a></p>
-					</div>
-
-				</header>
-			</div>
-		</main>
-
-	{%include previous_editions.html %}
-
-	{% include footer.html %}
-</body>
-</html>
+</header>

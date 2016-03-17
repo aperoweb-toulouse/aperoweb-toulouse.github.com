@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Site des aperoweb toulousains",
   "main": "index.html",
-  "scripts": {
-    "watch-css": "./bin/watch-css",
-    "clean-css": "./bin/clean-css"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aperoweb-toulouse/aperoweb-toulouse.github.com.git"
@@ -16,13 +12,5 @@
   "bugs": {
     "url": "https://github.com/aperoweb-toulouse/aperoweb-toulouse.github.com/issues"
   },
-  "homepage": "https://github.com/aperoweb-toulouse/aperoweb-toulouse.github.com#readme",
-  "dependencies": {
-    "normalize.css": "^3.0.3"
-  },
-  "devDependencies": {
-    "clean-css": "^3.4.6",
-    "node-sass": "^3.3.3",
-    "nodemon": "^1.7.3"
-  }
+  "homepage": "https://github.com/aperoweb-toulouse/aperoweb-toulouse.github.com#readme"
 }

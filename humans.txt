@@ -14,9 +14,16 @@
   Twitter: @nrosenberg
 
 /* SITE */
-  Last update: 2016/03/06
+  Last Updated: {{ site.time | date:"%Y/%m/%d" }}
   Language: French
-  Doctype: HTML5
-  Components: normalize, Sass, Bourbon
+  Standards: HTML5, CSS3
+  Components: normalize, Sass, Bourbon, % for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
   Software: Github Desktop, GitHub Pages, Jekyll
   IDE : Atom
+
+/* CONTRIBUTORS */
+
+  {% for contributor in site.github.contributors %}
+  Name: {{ contributor.login }}
+  Site: {{ contributor.html_url }}
+  {% endfor %}

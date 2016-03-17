@@ -75,15 +75,16 @@ hr {
 	color: $whitesmoke;
 	margin: 0 0 2*$base-spacing;
 	padding: $base-spacing 0;
+	text-align: center;
 
 	a {
 		color: $complementary-dark-color;
 	}
 }
 
-.next-edition__next {
+.next-edition__next,
+.next-edition__title {
 	font-style: italic;
-	text-align: center;
 }
 
 .next-edition__next,
@@ -130,13 +131,29 @@ hr {
 }
 
 .btn {
-	@include button(flat, $action-color);
+	background-color: $action-color;
+	border-radius: 3px;
+	border: 0;
+	color: #fff;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: bold;
+	padding: 7px 18px;
+	text-decoration: none;
+	transition: all 0.15s ease-out 0s;
+	background-clip: padding-box;
 	&:hover {
+		background: darken($action-color, 10%);
+		transition: all 0.15s ease-out 0s;
 		color: #fff;
 	}
 
 	&.complementary {
-		@include button(flat, $complementary-dark-color);
+		background-color: $complementary-dark-color;
+		color: #fff;
+		&:hover {
+			background: darken($complementary-dark-color, 10%);
+			transition: all 0.15s ease-out 0s;
+		}
 	}
-
 }

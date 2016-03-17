@@ -14,10 +14,13 @@ description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking
 	<p>1 rue Bouquières, 31000 Toulouse. Métro : Carmes.</p>
 </div>
 
-<h2 class="next-edition__title">{{ edition.title | default: "En cours de préparation" }}</h2>
-
-{% if edition.name %}
-<h3 class="next-edition__speaker">animé par <a href="{{ edition.url }}">{{ edition.name }}</a></h3>
+{% if edition.talks %}
+	{% for talk in edition.talks %}
+			<h2 class="next-edition__title">{{ talk["title"] | default: "En cours de préparation" }}</h2>
+			{% if talk["speaker"] != "" %}
+			<h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a></h3>
+			{% endif %}
+	{% endfor %}
 {% endif %}
 
 <div class="next-edition__description">

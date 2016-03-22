@@ -11,13 +11,14 @@ description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking
 {% include date_fr.html date=edition.date %}</h1>
 
 <div class="next-edition__venue">
-	<p>Rendez-vous à partir de 19h chez <a href="http://www.coworking-toulouse.com">Etincelle CoWorking</a> Carmes.</p>
-	<p>1 rue Bouquières, 31000 Toulouse. Métro : Carmes.</p>
+	{% assign venue = site.data.venues[edition.venue] %}
+	<p>Rendez-vous à partir de 19h chez <a href="{{ venue.url }}"> {{ venue.name }}</a></p>
+	<p>{{ venue.address }} - Métro : {{ venue.metro }}.</p>
 </div>
 
 {% if edition.talks %}
 	{% for talk in edition.talks %}
-			<h2 class="next-edition__title">{{ talk["title"] | default: "En cours de préparation" }}</h2>
+			<h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
 			{% if talk["speaker"] != "" %}
 			<h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a></h3>
 			{% endif %}

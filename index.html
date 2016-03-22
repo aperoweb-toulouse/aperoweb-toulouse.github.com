@@ -7,7 +7,8 @@ description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking
 <header class="next-edition__header">
 {% assign edition = site.data.editions | last %}
 
-<h1 class="next-edition__next">Prochain aperoweb : Lundi {{ edition.date | date: "%d/%m/%Y"}}</h1>
+<h1 class="next-edition__next">Prochain aperoweb :
+{% include date_fr.html date=edition.date %}</h1>
 
 <div class="next-edition__venue">
 	<p>Rendez-vous à partir de 19h chez <a href="http://www.coworking-toulouse.com">Etincelle CoWorking</a> Carmes.</p>

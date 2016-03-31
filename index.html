@@ -1,20 +1,22 @@
 ---
 layout: default
 title: Apéroweb Toulouse
-description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking aux Carmes"
+description: "Prochaine édition : lundi 4 avril à 19h au Four Monkeys."
 ---
 
 <header class="next-edition__header">
 {% assign edition = site.data.editions | last %}
 
-<h1 class="next-edition__next">Prochain aperoweb :
+<h1 class="next-edition__next lead">Prochain aperoweb :
 {% include date_fr.html date=edition.date %}</h1>
 
-<div class="next-edition__venue">
-	{% assign venue = site.data.venues[edition.venue] %}
-	<p>Rendez-vous à partir de 19h chez <a href="{{ venue.url }}"> {{ venue.name }}</a></p>
-	<p>{{ venue.address }} - Métro : {{ venue.metro }}.</p>
-</div>
+{% if edition.venue %}
+	<div class="next-edition__venue lead">
+		{% assign venue = site.data.venues[edition.venue] %}
+		<p>Rendez-vous à partir de 19h au <a href="{{ venue.url }}"> {{ venue.name }}</a></p>
+		<p>{{ venue.address }} - Métro : {{ venue.metro }}.</p>
+	</div>
+{% endif %}
 
 {% if edition.talks %}
 	{% for talk in edition.talks %}
@@ -30,10 +32,10 @@ description: "Prochaine édition : lundi 4 avril à 19h chez Etincelle Coworking
 </div>
 
 {% if edition.register %}
-<div id="register" class="lead">
-	<p><em>Gratuit et ouvert à tous</em></p>
-	<p><a href="{{ edition.register }}" class="btn complementary" data-event-category="call-to-action" data-event-action="register">Inscrivez-vous</a></p>
-</div>
+	<div id="register" class="lead">
+		<p><em>Gratuit et ouvert à tous</em></p>
+		<p><a href="{{ edition.register }}" class="btn complementary" data-event-category="call-to-action" data-event-action="register">Inscrivez-vous</a></p>
+	</div>
 {% endif %}
 
 </header>

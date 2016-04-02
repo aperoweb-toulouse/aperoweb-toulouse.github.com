@@ -3,11 +3,9 @@
     <h2>Précédentes éditions</h2>
     <ul class="previous-editions">
       {% assign editions = site.data.editions  %}
-      {% assign counter =  editions.size  %}
       {% for edition in editions reversed %}
-        {% assign counter=counter | minus:1 %}
         {% unless forloop.first %}
-        <li class="previous-edition">{{ edition.date | date: "%d/%m/%Y" }} – #{{ counter | plus:1 }} :
+        <li class="previous-edition">{{ edition.date | date: "%d/%m/%Y" }} – #{{ forloop.rindex }} :
           {% if edition.talks %}
             {% for talk in edition.talks %}
             <a href="{{ talk["slides"]}}">{{ talk["title"]}}</a> par <a href="{{ talk["speaker_url"]}}">{{ talk["speaker"] }}</a>{% unless forloop.last %}, {% endunless %}

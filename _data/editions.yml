@@ -198,15 +198,15 @@
   register: https://nvite.com/aperoweb/d9d2
 
 - date: 2016-04-04
-  description: "Pas de présentation ce mois-ci, mais si vous souhaitez venir boire un verre avec des gens du web toulousains, c'est l'occasion."
+  description: "Apéro au Four Monkeys."
   venue: Four_Monkeys
 
-# - date: 2016-05-02
-#   description: "<p>L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.</p>
-#   <p>Présentation par Sylvain Wallez, leader technique IoT chez OVH.</p>"
-#   talks:
-#   - {
-#   speaker: "Sylvain Wallez",
-#   speaker_url: "http://bluxte.net/",
-#   title: "Les objets connectés par l'exemple" }
-#   venue: Etincelle
+- date: 2016-05-02
+  description: "<p>L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.</p>
+  <p>Présentation par Sylvain Wallez, leader technique IoT chez OVH.</p>"
+  talks:
+  - {
+  speaker: "Sylvain Wallez",
+  speaker_url: "http://bluxte.net/",
+  title: "Les objets connectés par l'exemple" }
+  venue: Etincelle

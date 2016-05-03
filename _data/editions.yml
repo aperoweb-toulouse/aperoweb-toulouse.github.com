@@ -208,6 +208,11 @@
   - {
   speaker: "Sylvain Wallez",
   speaker_url: "http://bluxte.net/",
-  title: "Les objets connectés par l'exemple" }
-  register: https://nvite.com/aperoweb/d475
+  title: "Introduction à l'Internet des objets",
+  description: "Définition, applications, contraintes techniques, architecture, communication et démonstration",
+  slides: "http://fr.slideshare.net/swallez/2016-05-iot-apero-web" }
+  register: #https://nvite.com/aperoweb/d475
   venue: Etincelle
+
+- date: 2016-05-30
+  venue: Velo_Sentimental

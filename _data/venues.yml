@@ -1,4 +1,4 @@
-Etincelle-carmes:
+Etincelle_Carmes:
   name: Etincelle Coworking Carmes
   address: "1 rue Bouquières 31000 Toulouse"
   metro: Carmes
@@ -15,3 +15,9 @@ Four_Monkeys:
   address: 7 Rue de Metz 31000 Toulouse
   metro: Esquirol
   url: http://thefourmonkeyspub.com/
+
+Velo_Sentimental:
+  name: Vélo Sentimental
+  address: 12 boulevard Bonrepos 31000 Toulouse
+  metro: Marengo
+  url: http://www.maisonduvelotoulouse.com/restaurant_le_velo_sentimental_10.php

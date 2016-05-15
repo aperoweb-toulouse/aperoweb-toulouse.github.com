@@ -8,7 +8,7 @@ repository: aperoweb-toulouse/aperoweb-toulouse.github.com
 # SEO Tag
 author: aperoweb_tlse
 twitter:
-    username: "aperoweb_tlse"
+    username: aperoweb_tlse
 logo: /img/aperoweb.png
 
 # Social metadata (JSON-LD)

@@ -13,7 +13,7 @@ description: "Prochaine édition : lundi 30 mai à partir de 19h à la Comtesse,
 {% if edition.venue %}
 	<div class="next-edition__venue lead">
 		{% assign venue = site.data.venues[edition.venue] %}
-		<p>Rendez-vous à partir de 19h au {% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>{% endif %}</p>
+		<p>Rendez-vous à partir de 19h. {% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>{% endif %}</p>
 		<p>{{ venue.address }} - Métro : {{ venue.metro }}.</p>
 	</div>
 {% endif %}

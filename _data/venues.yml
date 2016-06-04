@@ -2,13 +2,13 @@ Etincelle_Carmes:
   name: Etincelle Coworking Carmes
   address: "1 rue Bouquières 31000 Toulouse"
   metro: Carmes
-  url: //www.coworking-toulouse.com
+  url: http://www.coworking-toulouse.com/
 
 Etincelle:
   name: Etincelle Coworking Wilson
   address: "2 rue Austerlitz 31000 Toulouse"
   metro: Jaurès
-  url: //www.coworking-toulouse.com
+  url: http://www.coworking-toulouse.com/
 
 Four_Monkeys:
   name: The Four Monkeys

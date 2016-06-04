@@ -159,7 +159,7 @@
       speaker_url: "http://www.graphidev.fr/",
       title: "Mettez de l'UX dans votre gestion de projet",
       slides: "//www.graphidev.fr/journal/mettez-de-lux-dans-votre-gestion-de-projet"
-  }
+    }
 
 - date: 07/12/2015
   talks:
@@ -168,7 +168,7 @@
       speaker_url: "//twitter.com/MrZoule",
       title: "Les bonnes pratiques de la webperf",
       slides: "//slides.com/occitech/webperfs/#/"
-  }
+    }
 
 - date: 04/01/2016
   talks:
@@ -176,7 +176,8 @@
       speaker: "Bénédicte Schmidt",
       speaker_url: "//www.linkedin.com/in/b%C3%A9n%C3%A9dicte-schmitt-23937994",
       title: "Apprenez à faire évaluer votre produit par des utilisateurs",
-      slides: "//fr.slideshare.net/BndicteSchmitt/20160104-apero-webevaluationux" }
+      slides: "//fr.slideshare.net/BndicteSchmitt/20160104-apero-webevaluationux"
+    }
 
 - date: 01/02/2016
   talks:
@@ -185,7 +186,8 @@
       speaker_url: "//moox.io",
       title: "À L'ère de PostCSS",
       description: "L'évolution de CSS des origines à nos jours.",
-      slides: "//speakerdeck.com/moox/post-css-era-des-feuilles-de-styles-preprocesses-aux-css-modules" }
+      slides: "//speakerdeck.com/moox/post-css-era-des-feuilles-de-styles-preprocesses-aux-css-modules"
+    }
 
 - date: 2016-03-07
   talks:
@@ -194,7 +196,8 @@
       speaker_url: "http://frank.taillandier.me",
       title: "Keep it Static Stupid",
       description: "Panorama de l'utilisation actuelle des gestionnaires de contenu statique.",
-      slides: "//speakerdeck.com/dirtyf/keep-it-static-stupid" }
+      slides: "//speakerdeck.com/dirtyf/keep-it-static-stupid"
+    }
   register: https://nvite.com/aperoweb/d9d2
 
 - date: 2016-04-04
@@ -202,17 +205,22 @@
   venue: Four_Monkeys
 
 - date: 2016-05-02
-  description: "<p>L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.</p>
-  <p>Présentation par Sylvain Wallez, leader technique IoT chez OVH.</p>"
+  description: "<p>L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.</p><p>Présentation par Sylvain Wallez, leader technique IoT chez OVH.</p>"
   talks:
   - {
-  speaker: "Sylvain Wallez",
-  speaker_url: "http://bluxte.net/",
-  title: "Introduction à l'Internet des objets",
-  description: "Définition, applications, contraintes techniques, architecture, communication et démonstration",
-  slides: "http://fr.slideshare.net/swallez/2016-05-iot-apero-web" }
+      speaker: "Sylvain Wallez",
+      speaker_url: "http://bluxte.net/",
+      title: "Introduction à l'Internet des objets",
+      description: "Définition, applications, contraintes techniques, architecture, communication et démonstration",
+      slides: "http://fr.slideshare.net/swallez/2016-05-iot-apero-web"
+    }
   register: #https://nvite.com/aperoweb/d475
   venue: Etincelle
 
 - date: 2016-05-30
   venue: La_Comtesse
+  description: Apéro post <a href="https://sudweb.fr">Sud Web</a> à la Comtesse.
+
+- date: 2016-07-04
+  description: <p class="lead"><a class="btn complementary" href="http://goo.gl/forms/U5gQ9znhmY" data-event-category="call-to-action" data-event-action="call-for-speaker">Proposez un sujet</a></p>
+  venue: Etincelle

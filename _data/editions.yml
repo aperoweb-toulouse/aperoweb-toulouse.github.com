@@ -128,7 +128,7 @@
   description : "Apéro en collaboration avec @ToulouseJS à l'EPITECH avec des présentations de @Moox et @ticabri."
 
 - date: 27/11/2014
-  description : "Apéro de rencontre à l'Atelier de l'Echarpe."
+  description : "Apéro à l'Atelier de l'Echarpe."
 
 - date: 19/12/2014
   description : "Débat : Pourquoi si peu de designers et graphistes dans les projets open source ?"
@@ -144,13 +144,13 @@
   description: "Les bases du design pour les développeurs par Vanessa Illmany"
 
 - date: 31/07/2015
-  description: "En mode apéro au Four Monkeys"
-
-- date: 05/10/2015
-  description: "Débrief Parisweb et distribution de goodies au Four Monkeys."
+  description: "Apéro au Four Monkeys"
 
 - date: 22/09/2015
   description: "Metaperoweb animé par Damien Mathieu chez Etincelle Coworking."
+
+- date: 05/10/2015
+  description: "Débrief Parisweb et distribution de goodies au Four Monkeys."
 
 - date: 02/11/2015
   talks:
@@ -184,7 +184,7 @@
   - {
       speaker: "Maxime Thirouin",
       speaker_url: "//moox.io",
-      title: "À L'ère de PostCSS",
+      title: "À l’ère de PostCSS",
       description: "L'évolution de CSS des origines à nos jours.",
       slides: "//speakerdeck.com/moox/post-css-era-des-feuilles-de-styles-preprocesses-aux-css-modules"
     }
@@ -194,7 +194,7 @@
   - {
       speaker: "Frank Taillandier",
       speaker_url: "http://frank.taillandier.me",
-      title: "Keep it Static Stupid",
+      title: "La mouvance statique",
       description: "Panorama de l'utilisation actuelle des gestionnaires de contenu statique.",
       slides: "//speakerdeck.com/dirtyf/keep-it-static-stupid"
     }
@@ -222,5 +222,9 @@
   description: Apéro post <a href="https://sudweb.fr">Sud Web</a> à la Comtesse.
 
 - date: 2016-07-04
-  description: <p class="lead"><a class="btn complementary" href="http://goo.gl/forms/U5gQ9znhmY" data-event-category="call-to-action" data-event-action="call-for-speaker">Proposez un sujet</a></p>
+  description: Apéro Web à la Comtesse.
   venue: La_Comtesse
+
+- date: 2016-08-08
+  description: <p class="lead"><a class="btn complementary" href="http://goo.gl/forms/U5gQ9znhmY" data-event-category="call-to-action" data-event-action="call-for-speaker">Proposez un sujet</a></p>
+  venue: Unknown

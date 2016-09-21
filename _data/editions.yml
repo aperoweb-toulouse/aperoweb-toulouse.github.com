@@ -226,5 +226,18 @@
   venue: La_Comtesse
 
 - date: 2016-09-05
-  description: <p class="lead"><a class="btn complementary" href="http://goo.gl/forms/U5gQ9znhmY" ga-on="click" ga-event-category="call-to-action" ga-event-action="call-for-speaker">Proposez un sujet</a></p>
+  description: Apéro Web au Four Monkeys.
   venue: Four_Monkeys
+
+- date: 2016-10-03
+  register: https://nvite.com/aperoweb/aa95
+  venue: Etincelle
+  description: <p>WYSIWYG, WISIWYM, Pages Builders… nos outils sont bien plus complexes que nous le pensons. Pour un utilisateur lambda, le détournement sémantique de ces outils est d'autant plus tentant que les rouages en sont libres et complexes à la fois. Notre utilisateur lambda devient alors l'utilisateur hacker, pour passer d'une idée à son expression. Et si nous assistions l'utilisateur dans sa démarche ?</p>
+  talks:
+  - {
+      speaker: "Sébastien Alexandre",
+      position: Designer d'expérience utilisateur,
+      speaker_url: "http://www.graphidev.fr/",
+      title: "L'utilisateur hacker vs. principes sémantiques",
+      slides: ""
+    }

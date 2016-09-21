@@ -232,12 +232,12 @@
 - date: 2016-10-03
   register: https://nvite.com/aperoweb/aa95
   venue: Etincelle
-  description: <p>WYSIWYG, WISIWYM, Pages Builders… nos outils sont bien plus complexes que nous le pensons. Pour un utilisateur lambda, le détournement sémantique de ces outils est d'autant plus tentant que les rouages en sont libres et complexes à la fois. Notre utilisateur lambda devient alors l'utilisateur hacker, pour passer d'une idée à son expression. Et si nous assistions l'utilisateur dans sa démarche ?</p>
+  description: <p>Les utilisateurs d'interface de gestion de contenu omettent les attributs `alt` des images ? Inversent les niveaux de titres `h1`, `h2`, `h3`, ... pour des raisons esthétiques ? Insèrent des caractères inappropriés ? Jouent avec des blocs qui ne sont pas prévus à cet effet ?</p><p>Et si ce n'était pas lié qu'à la configuration des éditeurs WYSIWIG et autres pages builders mais plutôt à une méconnaissance de la valeur des informations transmises par ces éditeurs ? Décortiquons le problème et analysons la situation et réfléchissons ensemble à comment mieux accompagner les contributeurs novices.</p>
   talks:
   - {
       speaker: "Sébastien Alexandre",
       position: Designer d'expérience utilisateur,
       speaker_url: "http://www.graphidev.fr/",
-      title: "L'utilisateur hacker vs. principes sémantiques",
+      title: "Le contributeur hacker et les principes sémantiques",
       slides: ""
     }

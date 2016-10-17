@@ -238,6 +238,18 @@
       speaker: "Sébastien Alexandre",
       position: Designer d'expérience utilisateur,
       speaker_url: "http://www.graphidev.fr/",
-      title: "Le contributeur hacker et les principes sémantiques",
+      title: "Le contributeur hacker et les principes sémantiques"
+    }
+
+- date: 2016-11-07
+  register: https://nvite.com/aperoweb/d726
+  venue: Etincelle
+  description: <p>Et si plutôt que de perdre du temps dans Photoshop à aligner précisément les pixels sur un canevas rigide et à générer de nombreux et lourds fichiers lors du processus de conception, nous passions à des processus efficaces et éprouvés où designer et développeur travaillent main dans la main pour concevoir des expériences adaptées au medium web ?</p>
+  talks:
+  - {
+      speaker: "Benoît Klein",
+      position: Développeur front-end,
+      speaker_url: "http://benoitklein.com/",
+      title: "Conception pair à pair",
       slides: ""
     }

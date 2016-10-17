@@ -238,7 +238,8 @@
       speaker: "Sébastien Alexandre",
       position: Designer d'expérience utilisateur,
       speaker_url: "http://www.graphidev.fr/",
-      title: "Le contributeur hacker et les principes sémantiques"
+      title: "Le contributeur hacker et les principes sémantiques",
+      slides: "http://fr.slideshare.net/SbastienALEXANDRE2/lutilisateur-hacker-vs-les-principes-semantiques"
     }
 
 - date: 2016-11-07

@@ -250,7 +250,10 @@
   - {
       speaker: "Benoît Klein",
       position: Développeur front-end,
-      speaker_url: "http://benoitklein.com/",
+      speaker_url: "https://twitter.com/etben",
       title: "Conception pair à pair",
-      slides: ""
+      slides: "http://benoitklein.com/apero/web/toulouse.html#../slides.html"
     }
+
+- date: 2016-12-05
+  venue: Unknown

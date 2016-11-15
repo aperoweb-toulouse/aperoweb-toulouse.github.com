@@ -10,6 +10,12 @@ Etincelle:
   metro: Jaurès
   url: http://www.coworking-toulouse.com/
 
+Oikos:
+  name: Lab'Oïkos
+  address: "32 Rue Riquet 31000 Toulouse"
+  metro: François Verdier
+  url: http://www.oikosysteme.com/
+
 Four_Monkeys:
   name: The Four Monkeys
   address: 7 Rue de Metz 31000 Toulouse

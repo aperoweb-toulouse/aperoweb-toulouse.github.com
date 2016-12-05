@@ -8,8 +8,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    bitters (1.4.0)
-      bourbon (>= 5.0.0.beta.6)
+    bitters (1.5.0)
+      bourbon (~> 5.0.0.beta.7)
       sass (~> 3.4)
       thor (~> 0.19)
     bourbon (5.0.0.beta.7)
@@ -132,8 +132,8 @@ GEM
     net-dns (0.8.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    octokit (4.4.1)
-      sawyer (~> 0.7.0, >= 0.5.3)
+    octokit (4.6.0)
+      sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (1.5.3)
@@ -143,8 +143,8 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-    sawyer (0.7.0)
-      addressable (>= 2.3.5, < 2.5)
+    sawyer (0.8.0)
+      addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 0.10)
     terminal-table (1.7.3)
       unicode-display_width (~> 1.1.1)
@@ -163,9 +163,9 @@ DEPENDENCIES
   bitters
   bourbon
   foreman
-  github-pages
+  github-pages (>= 104)
   jekyll-livereload
   neat
 
 BUNDLED WITH
-   1.12.5
+   1.13.6

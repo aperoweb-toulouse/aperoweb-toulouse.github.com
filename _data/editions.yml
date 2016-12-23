@@ -266,6 +266,7 @@
 #     }
 
 - date: 2017-01-02
+  register: https://nvite.com/aperoweb/ef8b
   venue: Etincelle
   description: Même après des années de pratique, le langage CSS vous réserve toujours quelques surprises. Xavier nous présentera un petit florilège des curiosités de cette bizarrerie qu'est CSS, dont la maîtrise n'est jamais acquise.
   talks:

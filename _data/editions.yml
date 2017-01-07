@@ -255,16 +255,6 @@
       slides: "http://benoitklein.com/apero/web/toulouse.html#../slides.html"
     }
 
-# - date: 2016-12-05
-#   venue: Unknown
-#   description: "En tant que professionnel du web, vous êtes amenés à manipuler des données personnelles, mais savez-vous les reconnaitre et savez-vous quels sont vos obligations vis-à-vis de ces données ? Quels principes respecter, quels réflexes adopter, quelles formalités accomplir ?"
-#   talks:
-#   - {
-#       speaker: "Sylvie Marquez",
-#       speaker_url: "https://twitter.com/SylvieMS4",
-#       title: "Comment traîter les données personnelles de vos utilisateurs ?"
-#     }
-
 - date: 2017-01-02
   register: https://nvite.com/aperoweb/ef8b
   venue: Etincelle
@@ -274,5 +264,16 @@
       speaker: Xavier Zalawa,
       position: Développeur front-end,
       speaker_url: "https://twitter.com/7studio",
-      title: CSS peut vous rendre fou !
+      title: "Curiosités et astuces CSS",
+      slides: "http://slides.7studio.fr/aperoweb1/#/"
+    }
+
+- date: 2016-02-06
+  venue: Unknown
+  description: "En tant que professionnel du web, vous êtes amenés à manipuler des données personnelles, mais savez-vous les reconnaitre et savez-vous quels sont vos obligations vis-à-vis de ces données ? Quels principes respecter, quels réflexes adopter, quelles formalités accomplir ?"
+  talks:
+  - {
+      speaker: "Sylvie Marquez",
+      speaker_url: "https://twitter.com/SylvieMS4",
+      title: "Comment traîter les données personnelles de vos utilisateurs ?"
     }

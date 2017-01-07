@@ -10,6 +10,13 @@ Etincelle:
   metro: Jaurès
   url: http://www.coworking-toulouse.com/
 
+Harry_Cow:
+  name: Harry Cow
+  address: "13 Rue Sainte-Ursule 31000 Toulouse"
+  metro: Esquirol ou Capitole
+  itineraire: https://encrypted.google.com/maps/dir/''/Harry+Coworking/data=!4m5!4m4!1m0!1m2!1m1!1s0x12aebb6258220a07:0xf1d45637938f3453?hl=fr&sa=X&ved=0ahUKEwipwsyTgbHRAhWDthoKHev6DEoQ9RcIuAEwEA
+  url: http://www.harrycow.com/
+
 Oikos:
   name: Lab'Oïkos
   address: "32 Rue Riquet 31000 Toulouse"

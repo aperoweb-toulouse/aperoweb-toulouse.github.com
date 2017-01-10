@@ -196,7 +196,7 @@
       speaker_url: "http://frank.taillandier.me",
       title: "La mouvance statique",
       description: "Panorama de l'utilisation actuelle des gestionnaires de contenu statique.",
-      slides: "//speakerdeck.com/dirtyf/keep-it-static-stupid"
+      slides: "https://speakerdeck.com/dirtyf/keep-it-static-stupid"
     }
   register: https://nvite.com/aperoweb/d9d2
 
@@ -214,7 +214,7 @@
       description: "Définition, applications, contraintes techniques, architecture, communication et démonstration",
       slides: "http://fr.slideshare.net/swallez/2016-05-iot-apero-web"
     }
-  register: #https://nvite.com/aperoweb/d475
+  register: https://nvite.com/aperoweb/d475
   venue: Etincelle
 
 - date: 2016-05-30
@@ -268,12 +268,13 @@
       slides: "http://slides.7studio.fr/aperoweb1/#/"
     }
 
-- date: 2016-02-06
-  venue: Unknown
+- date: 2017-02-06
+  venue: Etincelle
   description: "En tant que professionnel du web, vous êtes amenés à manipuler des données personnelles, mais savez-vous les reconnaitre et savez-vous quels sont vos obligations vis-à-vis de ces données ? Quels principes respecter, quels réflexes adopter, quelles formalités accomplir ?"
+  register: https://nvite.com/aperoweb/e1f5
   talks:
   - {
       speaker: "Sylvie Marquez",
       speaker_url: "https://twitter.com/SylvieMS4",
-      title: "Comment traîter les données personnelles de vos utilisateurs ?"
+      title: "Comment traiter les données personnelles de vos utilisateurs ?"
     }

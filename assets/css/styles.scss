@@ -46,6 +46,9 @@ hr {
 .main-footer {
 	border-top: 1px solid $whitesmoke;
 	margin-top: 3*$base-spacing;
+  img {
+    vertical-align: baseline;
+  }
 }
 
 .main-header,

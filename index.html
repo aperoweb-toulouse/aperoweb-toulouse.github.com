@@ -11,31 +11,31 @@ description: "Prochaine édition : lundi 6 février à partir de 19h"
 {% include date_fr.html date=edition.date %}</h1>
 
 {% if edition.venue %}
-	<div class="next-edition__venue lead">
-		{% assign venue = site.data.venues[edition.venue] %}
-		<p>Rendez-vous à partir de 19h. {% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>{% endif %}</p>
-		<p>{{ venue.address }}{% if venue.metro %} - Métro : {{ venue.metro }}.{% endif %}</p>
-	</div>
+  <div class="next-edition__venue lead">
+    {% assign venue = site.data.venues[edition.venue] %}
+    <p>Rendez-vous à partir de 19h. {% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>{% endif %}</p>
+    <p>{{ venue.address }}{% if venue.metro %} - Métro : {{ venue.metro }}.{% endif %}</p>
+  </div>
 {% endif %}
 
 {% if edition.talks %}
-	{% for talk in edition.talks %}
-			<h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
-			{% if talk["speaker"] != "" %}
-			<h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>{% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
-			{% endif %}
-	{% endfor %}
+  {% for talk in edition.talks %}
+      <h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
+      {% if talk["speaker"] != "" %}
+      <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>{% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
+      {% endif %}
+  {% endfor %}
 {% endif %}
 
 <div class="next-edition__description">
-	{{ edition.description }}
+  {{ edition.description }}
 </div>
 
 {% if edition.register %}
-	<div id="register" class="lead">
-		<p><em>Gratuit et ouvert à tous</em></p>
-		<p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Inscrivez-vous</a></p>
-	</div>
+  <div id="register" class="lead">
+    <p><em>Gratuit et ouvert à tous</em></p>
+    <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Inscrivez-vous</a></p>
+  </div>
 {% endif %}
 
 </header>

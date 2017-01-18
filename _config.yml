@@ -8,7 +8,7 @@ repository: aperoweb-toulouse/aperoweb-toulouse.github.com
 # SEO Tag
 author: aperoweb_tlse
 twitter:
-    username: aperoweb_tlse
+  username: aperoweb_tlse
 logo: /img/aperoweb.png
 
 # Social metadata (JSON-LD)
@@ -19,27 +19,30 @@ social:
     - https://github.com/aperoweb-toulouse
 
 call_for_speaker:
-    url: http://goo.gl/forms/U5gQ9znhmY
+  url: http://goo.gl/forms/U5gQ9znhmY
 
 analytics:
-    google:
-        tracking_id: UA-69372239-1
+  google:
+    tracking_id: UA-69372239-1
 
 sass:
-    sass_dir: _sass
-    style:    :compressed
+  sass_dir: _sass
+  style:    :compressed
 
 exclude:
-    - bin
-    - node_modules
-    - package.json
-    - LICENSE
-    - README.md
-    - Gemfile
-    - Gemfile.lock
-    - Procfile
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - package.json
+  - Procfile
+  - README.md
+  - script
+  - vendor
 
 gems:
   - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji

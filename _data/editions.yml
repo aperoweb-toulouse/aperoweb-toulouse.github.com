@@ -270,11 +270,12 @@
 
 - date: 2017-02-06
   venue: Etincelle
-  description: "En tant que professionnel du web, vous êtes amenés à manipuler des données personnelles, mais savez-vous les reconnaitre et savez-vous quels sont vos obligations vis-à-vis de ces données ? Quels principes respecter, quels réflexes adopter, quelles formalités accomplir ?"
+  description: "En tant que professionnel du web, vous êtes amenés à manipuler des données personnelles, mais savez-vous les reconnaitre et savez-vous quels sont vos obligations vis-à-vis de ces données ? Quels principes respecter, quels réflexes adopter, quelles formalités accomplir ? Sylvie Marquez nous propose un petit guide de survie au pays du Big Data destiné aux professionnels du web, à ceux qui conçoivent des applications pour leur apprendre comment veiller à la protection des données à caractère personnel dans le monde numérique."
   register: https://nvite.com/aperoweb/e1f5
   talks:
   - {
       speaker: "Sylvie Marquez",
+      position: Juriste et correspondante informatique et libertés auprès de la CNIL,
       speaker_url: "https://twitter.com/SylvieMS4",
       title: "Guide de survie des professionnels du web face aux données personnelles"
     }

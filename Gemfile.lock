@@ -231,10 +231,10 @@ DEPENDENCIES
   bitters
   bourbon
   foreman
-  github-pages (>= 115)
+  github-pages
   html-proofer
   jekyll-livereload
   neat
 
 BUNDLED WITH
-   1.13.7
+   1.14.0

@@ -279,3 +279,15 @@
       speaker_url: "https://twitter.com/SylvieMS4",
       title: "Guide de survie de protection des données personnelles"
     }
+
+- date: 2017-03-06
+  venue: At_Home
+  description: ""
+  register:
+  talks:
+  - {
+      speaker: "Thomas Parisot",
+      position: Senior Web Developer,
+      speaker_url: "https://oncletom.io",
+      title: "Livrer une revue de livre de code"
+    }

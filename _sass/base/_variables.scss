@@ -49,6 +49,6 @@ $base-duration: 150ms;
 $base-timing: ease;
 
 // display grid
-// $visual-grid: true;
-// $visual-grid-color: lighten($blue, 3%);
-// $visual-grid-index: front;
+$visual-grid: false;
+$visual-grid-color: lighten($blue, 3%);
+$visual-grid-index: front;

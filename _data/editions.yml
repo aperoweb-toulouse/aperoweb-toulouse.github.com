@@ -283,12 +283,14 @@
 - date: 2017-03-06
   venue: At_Home
   description: |
-    Écrire un livre c'est chouette.
+    Écrire un [livre sur NodeJS](https://oncletom.io/node.js) c'est chouette.
     L'écrire tout seul, sans idée de l'utilité ou de l'aisance de lecture de son contenu c'est moins chouette.
-    
+
     Ensemble nous allons faire une revue du livre, de vos objectifs d'apprentissage.
     Nous allons apprendre en posant des questions, en posant des post-it ou ajoutant un point-virgule manquant.
-  register:
+  image: /assets/img/nodebook.png
+  link: https://oncletom.io/node.js
+  register: https://nvite.com/aperoweb/fcb6
   talks:
   - {
       speaker: "Thomas Parisot",
@@ -296,3 +298,15 @@
       speaker_url: "https://oncletom.io",
       title: "Livrer une revue de livre de code"
     }
+
+# - date: 2017-04-03
+#   venue:
+#   description: "Introduction au développement sur les nouveaux assistants vocaux (Alexa et Google Home). Présentation des contraintes et des bonnes pratiques liées à ces interfaces vocales. Démo live avec Alexa et Google Home."
+#   register:
+#   talks:
+#   - {
+#       speaker: "Laurent Clouet",
+#       position: Senior Web Developer,
+#       speaker_url: "https://twitter.com/laurent35240",
+#       title: "Amusez-vous avec les assistants vocaux"
+#     }

@@ -5,6 +5,8 @@ description: "Prochaine édition : lundi 6 mars à partir de 19h chez At Home"
 image: /assets/img/social.png
 ---
 
+<a name="next-edition"></a>
+
 <header class="next-edition__header">
 {% assign edition = site.data.editions | last %}
 
@@ -12,10 +14,11 @@ image: /assets/img/social.png
 {% include date_fr.html date=edition.date %}</h1>
 
 {% if edition.venue %}
-  <div class="next-edition__venue lead">
+  <div class="next-edition__venue">
     {% assign venue = site.data.venues[edition.venue] %}
-    <p>Rendez-vous à partir de 19h. {% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>{% endif %}</p>
-    <p>{{ venue.address }}{% if venue.metro %} - Métro : {{ venue.metro }}.{% endif %}</p>
+    <p>Rendez-vous à partir de 19h.</p>
+    <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
+    {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
   </div>
 {% endif %}
 
@@ -23,7 +26,8 @@ image: /assets/img/social.png
   {% for talk in edition.talks %}
       <h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
       {% if talk["speaker"] != "" %}
-      <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>{% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
+        <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
+        {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
       {% endif %}
   {% endfor %}
 {% endif %}
@@ -32,10 +36,16 @@ image: /assets/img/social.png
   {{ edition.description | markdownify }}
 </div>
 
+{% if edition.image %}
+ <figure class="next-edition_image lead">
+   <a href="{{ edition.link }}"><img src="{{ edition.image }}" alt=""></a>
+ </figure>
+{% endif %}
+
 {% if edition.register %}
   <div id="register" class="lead">
     <p><em>Gratuit et ouvert à tous</em></p>
-    <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Inscrivez-vous</a></p>
+    <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Signalez votre présence</a></p>
   </div>
 {% endif %}
 

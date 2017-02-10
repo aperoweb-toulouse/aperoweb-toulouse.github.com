@@ -282,7 +282,12 @@
 
 - date: 2017-03-06
   venue: At_Home
-  description: ""
+  description: |
+    Écrire un livre c'est chouette.
+    L'écrire tout seul, sans idée de l'utilité ou de l'aisance de lecture de son contenu c'est moins chouette.
+    
+    Ensemble nous allons faire une revue du livre, de vos objectifs d'apprentissage.
+    Nous allons apprendre en posant des questions, en posant des post-it ou ajoutant un point-virgule manquant.
   register:
   talks:
   - {

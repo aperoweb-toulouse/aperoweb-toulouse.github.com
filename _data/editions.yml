@@ -302,7 +302,7 @@
 - date: 2017-04-03
   venue:
   description: "Introduction au développement sur les nouveaux assistants vocaux (Alexa et Google Home). Présentation des contraintes et des bonnes pratiques liées à ces interfaces vocales. Démo live avec Alexa et Google Home."
-  register:
+  register: https://nvite.com/aperoweb/d782
   talks:
   - {
       speaker: "Laurent Clouet",

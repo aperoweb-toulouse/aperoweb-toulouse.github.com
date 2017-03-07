@@ -299,14 +299,14 @@
       title: "Livrer une revue de livre de code"
     }
 
-# - date: 2017-04-03
-#   venue:
-#   description: "Introduction au développement sur les nouveaux assistants vocaux (Alexa et Google Home). Présentation des contraintes et des bonnes pratiques liées à ces interfaces vocales. Démo live avec Alexa et Google Home."
-#   register:
-#   talks:
-#   - {
-#       speaker: "Laurent Clouet",
-#       position: Senior Web Developer,
-#       speaker_url: "https://twitter.com/laurent35240",
-#       title: "Amusez-vous avec les assistants vocaux"
-#     }
+- date: 2017-04-03
+  venue:
+  description: "Introduction au développement sur les nouveaux assistants vocaux (Alexa et Google Home). Présentation des contraintes et des bonnes pratiques liées à ces interfaces vocales. Démo live avec Alexa et Google Home."
+  register:
+  talks:
+  - {
+      speaker: "Laurent Clouet",
+      position: Senior Web Developer,
+      speaker_url: "https://twitter.com/laurent35240",
+      title: "Amusez-vous avec les assistants vocaux"
+    }

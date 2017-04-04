@@ -2,20 +2,15 @@
   <div class="narrowed">
     <h2>Précédentes éditions</h2>
     <ul class="previous-editions">
-      {% assign editions = site.data.editions  %}
-      {% for edition in editions reversed %}
-        {% unless forloop.first %}
-        <li class="previous-edition">{{ edition.date | date: "%d/%m/%Y" }} – #{{ forloop.rindex }} :
+      {% assign editions = site.data.editions %} {% for edition in editions reversed %} {% unless forloop.first %}
+      <li class="previous-edition">
+        <h3>#{{ forloop.rindex }} · <small>{{ edition.date | date: "%d/%m/%Y" }}</small> ·
           {% if edition.talks %}
             {% for talk in edition.talks %}
             {% if talk["slides"] != null %}<a href="{{ talk["slides"]}}">{{ talk["title"]}}</a>{% else %} <em>{{ talk["title"]}}</em> {%endif %} par <a href="{{ talk["speaker_url"]}}">{{ talk["speaker"] }}</a>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          {% else %}
-            {{ edition.description }}
-          {% endif %}
-        </li>
-        {% endunless %}
-      {% endfor %}
+          </h3> {{ edition.description | markdownify }} {% endfor %} {% else %} {{ edition.description }} {% endif %}
+      </li>
+      {% endunless %} {% endfor %}
     </ul>
   </div>
 </section>

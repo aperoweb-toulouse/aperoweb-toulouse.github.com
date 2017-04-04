@@ -190,12 +190,13 @@
     }
 
 - date: 2016-03-07
+  description: |
+    Panorama de l'utilisation actuelle des gestionnaires de contenu statique, qui se reposent sur des technologies modernes : Git, générateur, headless CMS, déploiement continu, APIs externes, etc.  Pourquoi [la mouvance statique](https://frank.taillandier.me/2016/03/08/les-gestionnaires-de-contenu-statique/) s'est elle emparée de nouveau du Web, à quels enjeux répond t-elle ?
   talks:
   - {
       speaker: "Frank Taillandier",
       speaker_url: "http://frank.taillandier.me",
       title: "La mouvance statique",
-      description: "Panorama de l'utilisation actuelle des gestionnaires de contenu statique.",
       slides: "https://speakerdeck.com/dirtyf/keep-it-static-stupid"
     }
   register: https://nvite.com/aperoweb/d9d2
@@ -205,7 +206,8 @@
   venue: Four_Monkeys
 
 - date: 2016-05-02
-  description: "<p>L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.</p><p>Présentation par Sylvain Wallez, leader technique IoT chez OVH.</p>"
+  description: |
+    L'IoT (internet of things) est un sujet à la mode, mais qu'est-ce réellement ? Nous verrons les différents composants d'un système IoT, et les domaines d'application variés de l'IoT, du collier de chien intelligent aux systèmes d'optimisation énergétique. Et on terminera par une démo d'un système IoT simple à base d'Arduino, de Raspberry Pi et de JavaScript.
   talks:
   - {
       speaker: "Sylvain Wallez",
@@ -232,7 +234,10 @@
 - date: 2016-10-03
   register: https://nvite.com/aperoweb/aa95
   venue: Etincelle
-  description: <p>Les utilisateurs d'interface de gestion de contenu omettent les attributs `alt` des images ? Inversent les niveaux de titres `h1`, `h2`, `h3`, ... pour des raisons esthétiques ? Insèrent des caractères inappropriés ? Jouent avec des blocs qui ne sont pas prévus à cet effet ?</p><p>Et si ce n'était pas lié qu'à la configuration des éditeurs WYSIWIG et autres pages builders mais plutôt à une méconnaissance de la valeur des informations transmises par ces éditeurs ? Décortiquons le problème et analysons la situation et réfléchissons ensemble à comment mieux accompagner les contributeurs novices.</p>
+  description: |
+    Les utilisateurs d'interface de gestion de contenu omettent les attributs `alt` des images ? Inversent les niveaux de titres `h1`, `h2`, `h3`, ... pour des raisons esthétiques ? Insèrent des caractères inappropriés ? Jouent avec des blocs qui ne sont pas prévus à cet effet ?
+
+    Et si ce n'était pas lié qu'à la configuration des éditeurs WYSIWIG et autres pages builders mais plutôt à une méconnaissance de la valeur des informations transmises par ces éditeurs ? Décortiquons le problème et analysons la situation et réfléchissons ensemble à comment mieux accompagner les contributeurs novices.
   talks:
   - {
       speaker: "Sébastien Alexandre",

@@ -317,3 +317,15 @@
       title: "Amusez-vous avec les assistants vocaux",
       slides: "https://fr.slideshare.net/LaurentClouet/les-assistants-vocaux"
     }
+
+- date: 2017-05-02
+  venue: unknown
+  description: ""
+  talks:
+  - {
+    title: "",
+    speaker: "",
+    position: "",
+    speaker_url: "",
+    slides: ""
+    }

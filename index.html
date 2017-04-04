@@ -24,7 +24,7 @@ image: /assets/img/social.png
 
 {% if edition.talks %}
   {% for talk in edition.talks %}
-      <h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
+      <h2 class="next-edition__title lead">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
       {% if talk["speaker"] != "" %}
         <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
         {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}

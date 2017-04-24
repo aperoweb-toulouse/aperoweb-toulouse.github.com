@@ -2,6 +2,7 @@
 layout: default
 title: Conférences et échanges entre toulousains qui font le web
 description: "Prochaine édition : mardi 2 mai à partir de 19h"
+image: http://piapandelakis.com/illustration/content/3-portefolio/5-misc/008.jpg
 ---
 
 <a name="next-edition"></a>
@@ -23,7 +24,7 @@ description: "Prochaine édition : mardi 2 mai à partir de 19h"
 
 {% if edition.talks %}
   {% for talk in edition.talks %}
-      <h2 class="next-edition__title lead">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
+      <h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
       {% if talk["speaker"] != "" %}
         <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
         {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}

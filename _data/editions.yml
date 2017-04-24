@@ -319,13 +319,19 @@
     }
 
 - date: 2017-05-02
-  venue: unknown
-  description: ""
+  venue: Harry_Cow
+  description: |
+    Le mot _design_ est aisément un des plus usités dans le discours commun — et pas seulement dans le domaine du web. À force de l'employer, souvent à mauvais escient, on oublie que le design renvoie à une discipline. Étrange, asymétrique, ce rejeton curieux des arts décoratifs et plus tard des arts appliqués ne possède pas un périmètre facile à définir. Pourtant, la discipline est enseignée à l'université, même si pour beaucoup il n'est pas toujours aisé de voir ce que peut être une recherche en design.
+
+    Nous parlerons de tout cela : comment le webdesign travaille à soustraire des pratiques du design des mains des designers (au nom de l'innovation, notamment) ; comment les designers sont un peu responsables de ce fiasco ; et comment, bizarrement, trouver la juste place d'une pratique du design peut conduire à des environnements mieux conçus.
+
+    [Pia Pandelakis](http://piapandelakis.com/) enseigne le design (spécialisation design graphique) à l'université Toulouse — Jean Jaurès. Elle dirige notamment des étudiants dans le cadre du Master Design Transdisciplinaire, Cultures et Territoires. Elle est également chercheuse en cinéma & design et travaille sur la question du [queer design](http://piapandelakis.com/queer/).
+  register: https://nvite.com/aperoweb/1r1r4m
   talks:
   - {
-    title: "",
-    speaker: "",
-    position: "",
-    speaker_url: "",
+    title: "Back Off! Place du design & design pour faire place",
+    speaker: "Pia Pandelakis",
+    position: "Enseignante en Design graphique à l'Université Toulouse Jean-Jaurès",
+    speaker_url: "http://piapandelakis.com/",
     slides: ""
     }

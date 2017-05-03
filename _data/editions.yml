@@ -323,11 +323,8 @@
   description: |
     Le mot _design_ est aisément un des plus usités dans le discours commun — et pas seulement dans le domaine du web. À force de l'employer, souvent à mauvais escient, on oublie que le design renvoie à une discipline. Étrange, asymétrique, ce rejeton curieux des arts décoratifs et plus tard des arts appliqués ne possède pas un périmètre facile à définir. Pourtant, la discipline est enseignée à l'université, même si pour beaucoup il n'est pas toujours aisé de voir ce que peut être une recherche en design.
 
-    Nous parlerons de tout cela : comment le webdesign travaille à soustraire des pratiques du design des mains des designers (au nom de l'innovation, notamment) ; comment les designers sont un peu responsables de ce fiasco ; et comment, bizarrement, trouver la juste place d'une pratique du design peut conduire à des environnements mieux conçus.
+    Pia nous raconte comment le webdesign travaille à soustraire des pratiques du design des mains des designers (au nom de l'innovation, notamment) ; comment les designers sont un peu responsables de ce fiasco ; et comment, bizarrement, trouver la juste place d'une pratique du design peut conduire à des environnements mieux conçus.
 
-    On parlera aussi : [Queer design](http://piapandelakis.com/queer/), recyclage de démos Codrops, travailler avec des artisans numériques comme [Bertrand Keller](https://bertrandkeller.info/), Git pour les humains, d'enseignement, de clients, pourquoi pas [Mies Van Der Rohe](https://fr.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe), de design critique, de montres qui ne donnent pas l'heure et même de Deliveroo !
-
-    [Pia Pandelakis](http://piapandelakis.com/) enseigne le design (spécialisation design graphique) à l'université Toulouse — Jean Jaurès. Elle dirige notamment des étudiants dans le cadre du Master Design Transdisciplinaire, Cultures et Territoires. Elle est également chercheuse en cinéma & design et travaille sur la question du queer design.
   register: https://nvite.com/aperoweb/1r1r4m
   talks:
   - {
@@ -335,5 +332,21 @@
     speaker: "Pia Pandelakis",
     position: "Enseignante en Design graphique à l'Université Toulouse Jean-Jaurès",
     speaker_url: "http://piapandelakis.com/",
+    slides: null
+    }
+- date: 2017-06-05
+  venue: Harry_Cow
+  description: |
+    Les animations d'interactions dans les applications Web sont de plus en plus courantes et CSS et JavaScript offrent maintenant beaucoup de possibilités à ce niveau. Comme toute technique, la gestion des animations demande une certaine maîtrise si vous ne voulez pas impacter le ressenti à l'utilisation et dégrader les performances de votre application.
+
+    Julien Pradet s'est [penché](https://www.julienpradet.fr/posts/des-animations-performantes-1) sur [cette question](https://www.julienpradet.fr/posts/des-animations-performantes-2/) de la [performance des animations](https://www.julienpradet.fr/posts/des-animations-performantes-3/) et a été décortiqué ce qui se passe dans un navigateur  lorsqu'il s'agit d'animer des composants d'interface.
+
+    Comment se passe le rendu ? Quelles sont les bonnes pratiques pour l'optimiser ? Quels outils utiliser ? Dans quel contexte ? Autant de questions auxquelles Julien se fera un plaisir de répondre au cours de cette présentation.
+  talks:
+  - {
+    title: Pour des animations performantes,
+    speaker: Julien Pradet,
+    position: Développeur Web et sculpteur d'interfaces,
+    speaker_url: "https://www.julienpradet.fr/",
     slides: ""
     }

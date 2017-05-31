@@ -334,7 +334,7 @@
     speaker_url: "http://piapandelakis.com/",
     slides: "http://piapandelakis.com/doc/slidesconf/2017_backoff_prez/index.html"
     }
-- date: 2017-06-05
+- date: 2017-06-12
   venue: Harry_Cow
   description: |
     Les animations d'interactions dans les applications Web sont de plus en plus courantes et CSS et JavaScript offrent maintenant beaucoup de possibilités à ce niveau. Comme toute technique, la gestion des animations demande une certaine maîtrise si vous ne voulez pas impacter le ressenti à l'utilisation et dégrader les performances de votre application.

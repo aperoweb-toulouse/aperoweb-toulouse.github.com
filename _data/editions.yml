@@ -342,6 +342,7 @@
     Julien Pradet s'est [penché](https://www.julienpradet.fr/posts/des-animations-performantes-1) sur [cette question](https://www.julienpradet.fr/posts/des-animations-performantes-2/) de la [performance des animations](https://www.julienpradet.fr/posts/des-animations-performantes-3/) et a été décortiqué ce qui se passe dans un navigateur  lorsqu'il s'agit d'animer des composants d'interface.
 
     Comment se passe le rendu ? Quelles sont les bonnes pratiques pour l'optimiser ? Quels outils utiliser ? Dans quel contexte ? Autant de questions auxquelles Julien se fera un plaisir de répondre au cours de cette présentation.
+  register: https://nvite.com/aperoweb/orj96d
   talks:
   - {
     title: Pour des animations performantes,

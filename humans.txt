@@ -1,3 +1,5 @@
+---
+---
 /* TEAM */
   Location: Toulouse, France
 
@@ -17,8 +19,8 @@
   Last Updated: {{ site.time | date:"%Y/%m/%d" }}
   Language: French
   Standards: HTML5, CSS3
-  Components: normalize, Sass, Bourbon, % for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
-  Software: Github Desktop, GitHub Pages, Jekyll
+  Components: normalize, Sass, Bourbon, {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
+  Software: GitHub Pages, Jekyll
   IDE : Atom
 
 /* CONTRIBUTORS */

@@ -15,5 +15,10 @@ permalink: /
 
   {% include previous_editions.html %}
   {% include footer.html %}
+  <script src="{{ "assets/js/anchor.min.js" | relative_url }}"></script>
+  <script>
+  anchors.options.placement = 'left';
+  anchors.add('h3');
+  </script>
 </body>
 </html>

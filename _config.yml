@@ -41,7 +41,7 @@ exclude:
   - script
   - vendor
 
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-sitemap

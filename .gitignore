@@ -5,6 +5,7 @@ package.json
 
 # Ruby
 Gemfile.lock
+.rubucop.yml
 
 # Jekyll
 _site

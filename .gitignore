@@ -1,6 +1,7 @@
 # Node.js
 node_modules
 .nvmrc
+package.json
 
 # Ruby
 Gemfile.lock

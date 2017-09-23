@@ -1,163 +1,163 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later # only Main files contain this front matter, not partials.
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
-@import  "normalize";
+@import "normalize";
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
 
 h2 {
-	font-size: 150%;
+  font-size: 150%;
 }
 
 h3 {
-	font-size: 125%;
+  font-size: 125%;
 }
 
 hr {
-	border: 0;
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid $whitesmoke;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-	margin: 4*$base-spacing;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid $whitesmoke;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 4 * $base-spacing;
 }
 
 .narrowed {
-	@include outer-container();
-	padding: 0 $base-spacing;
+  @include outer-container();
+  padding: 0 $base-spacing;
 }
 
 .lead {
-	text-align: center;
-	margin: 1*$base-spacing;
+  text-align: center;
+  margin: 1 * $base-spacing;
 }
 
 .sold-out {
-	display: inline-block;
-	margin: 0 0 0 0.5em;
-	padding: 0.15em 0.3em;
-	background-color: $action-color;
-	color: $base-background-color;
-	@include transform(rotate(11.25deg));
+  display: inline-block;
+  margin: 0 0 0 0.5em;
+  padding: 0.15em 0.3em;
+  background-color: $action-color;
+  color: $base-background-color;
+  @include transform(rotate(11.25deg));
 }
 
 .main-footer {
-	border-top: 1px solid $whitesmoke;
-	margin-top: 3*$base-spacing;
+  border-top: 1px solid $whitesmoke;
+  margin-top: 3 * $base-spacing;
 
-	img {
-		vertical-align: baseline;
-	}
+  img {
+    vertical-align: baseline;
+  }
 }
 
 .main-footer,
 .main-header {
-	background: $whitesmoke;
-	@include background-image(linear-gradient(#fdfdfd 0, $whitesmoke 100%, transparent 100%));
-	padding: $base-spacing 0;
+  background: $whitesmoke;
+  @include background-image(linear-gradient(#fdfdfd 0, $whitesmoke 100%, transparent 100%));
+  padding: $base-spacing 0;
 }
 
 .main-footer,
 .main-header__baseline,
 .main-header__logo {
-	text-align: center;
+  text-align: center;
 }
 
 .main-header__logo {
-	margin: 0;
+  margin: 0;
 }
 
 .main-header__baseline {
-	font-family: $heading-font-family;
+  font-family: $heading-font-family;
 }
 
 .next-edition {
-	background: $dark-color;
-	position: relative;
-	color: $whitesmoke;
-	margin: 0 0 2*$base-spacing;
-	padding: $base-spacing 0;
+  background: $dark-color;
+  position: relative;
+  color: $whitesmoke;
+  margin: 0 0 2 * $base-spacing;
+  padding: $base-spacing 0;
 
-	a {
-		color: $complementary-dark-color;
-	}
-}
+  &__next,
+  &__title {
+    margin: $small-spacing 0;
+    color: $whitesmoke;
+    font-style: italic;
+  }
 
-.next-edition__next,
-.next-edition__title {
-	font-style: italic;
-}
+  &__title {
+    margin: 0;
+  }
 
-.next-edition__next,
-.next-edition__title {
-	margin: $small-spacing 0;
-	color: $whitesmoke;
-}
+  &__venue {
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 1 * $base-spacing;
 
-.next-edition__title {
-	margin: 0;
-}
+    p {
+      margin: 0;
+    }
+  }
 
-.next-edition__venue {
-	font-weight: 700;
-	text-align: center;
-	margin: 0 auto 1*$base-spacing;
-
-	p {
-		margin: 0;
-	}
+  a {
+    color: $complementary-dark-color;
+  }
 }
 
 .next-edition__speaker,
 .presentation__speaker,
 .presentation__title {
-	display: inline-block;
+  display: inline-block;
 }
 
 .presentation__date {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .presentation__speaker {
-	margin: 0 0 $small-spacing;
+  margin: 0 0 $small-spacing;
 }
 
 .presentation__summary {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .previous-edition {
-	padding: $small-spacing 0;
-	border-bottom: thin dashed $headlines-color;
+  padding: $small-spacing 0;
+  border-bottom: thin dashed $headlines-color;
+  &__title {
+    margin: 0.35em 0;
+  }
 }
 
 .btn {
-	background-color: $action-color;
-	border-radius: 3px;
-	border: 0;
-	color: #fff;
-	display: inline-block;
-	font-size: inherit;
-	font-weight: bold;
-	padding: 7px 18px;
-	text-decoration: none;
-	transition: all 0.15s ease-out 0s;
-	background-clip: padding-box;
+  background-color: $action-color;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+  transition: all 0.15s ease-out 0s;
+  background-clip: padding-box;
 
-	&:hover {
-		background: darken($action-color, 10%);
-		transition: all 0.15s ease-out 0s;
-		color: #fff;
-	}
+  &:hover {
+    background: darken($action-color, 10%);
+    transition: all 0.15s ease-out 0s;
+    color: #fff;
+  }
 
-	&.complementary {
-		background-color: $complementary-dark-color;
-		color: #fff;
+  &.complementary {
+    background-color: $complementary-dark-color;
+    color: #fff;
 
-		&:hover {
-			background: darken($complementary-dark-color, 10%);
-			transition: all 0.15s ease-out 0s;
-		}
-	}
+    &:hover {
+      background: darken($complementary-dark-color, 10%);
+      transition: all 0.15s ease-out 0s;
+    }
+  }
 }

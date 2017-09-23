@@ -12,4 +12,9 @@ group :development do
   gem "bourbon"
   gem "foreman"
   gem "neat"
+  gem "rake"
+end
+
+group :test do
+  gem "html-proofer"
 end

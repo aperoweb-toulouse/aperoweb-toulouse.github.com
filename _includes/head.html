@@ -9,5 +9,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css?v={{ site.github.build_revision }}">
   <link type="text/plain" rel="author" href="{{ "humans.txt" | absolute_url }}" />
   {% include favicons.html %}
-  {% include analytics.html %}
+  {% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+  {% endif %}
 </head>

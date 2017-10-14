@@ -4,7 +4,6 @@ node_modules
 package.json
 
 # Ruby
-Gemfile.lock
 .rubucop.yml
 
 # Jekyll

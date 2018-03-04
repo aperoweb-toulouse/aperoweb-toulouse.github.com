@@ -1,7 +1,7 @@
 # Config
 title: Apéroweb Toulouse
 description: "Le rendez-vous des gens qui font du web sur Toulouse"
-url: http://toulouse.aperoweb.fr
+url: https://toulouse.aperoweb.fr
 baseurl: ""
 repository: aperoweb-toulouse/aperoweb-toulouse.github.com
 
@@ -31,10 +31,8 @@ sass:
 
 exclude:
   - bin
-  - Gemfile
-  - Gemfile.lock
+  - CNAME
   - LICENSE
-  - node_modules
   - package.json
   - Procfile
   - README.md

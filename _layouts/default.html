@@ -13,12 +13,18 @@ permalink: /
     </div>
   </main>
 
+  <p class="lead">Restez informés avec <a href="http://eepurl.com/zpnJv">notre lettre d'information</a>.
+  <p class="lead">
+    <a href="{{ site.call_for_speaker.url }}" class="btn" ga-on="click" ga-event-category="call-to-action" ga-event-action="call-for-speaker">Proposez un sujet</a>
+  </p>
+
   {% include previous_editions.html %}
   {% include footer.html %}
   <script src="{{ "assets/js/anchor.min.js" | relative_url }}"></script>
   <script>
   anchors.options.placement = 'left';
-  anchors.add('h3');
+  anchors.add('h2');
+  anchors.add('.previous-editions h3');
   </script>
 </body>
 </html>

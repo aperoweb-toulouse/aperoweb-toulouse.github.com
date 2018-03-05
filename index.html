@@ -9,21 +9,13 @@ description: "Prochain meetup le vendredi 16 mars à 19h chez Harry Cow."
 <header class="next-edition__header">
 {% assign edition = site.data.editions | last %}
 
-<h1 class="next-edition__next lead">Prochain aperoweb :<br/>
-{% include date_fr.html date=edition.date %}</h1>
+<h1 class="next-edition__next lead">Prochaine rencontre :<br/>
+{% include date_fr.html date=edition.date %} </h1>
 
-{% if edition.venue %}
-  <div class="next-edition__venue">
-    {% assign venue = site.data.venues[edition.venue] %}
-    <p>Rendez-vous à partir de 19h.</p>
-    <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
-    {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
-  </div>
-{% endif %}
 
 {% if edition.talks %}
   {% for talk in edition.talks %}
-      <h2 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h2>
+      <h1 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h1>
       {% if talk["speaker"] != "" %}
         <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
         {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
@@ -41,11 +33,21 @@ description: "Prochain meetup le vendredi 16 mars à 19h chez Harry Cow."
  </figure>
 {% endif %}
 
+{% if edition.venue %}
+  <div class="next-edition__venue">
+    {% assign venue = site.data.venues[edition.venue] %}
+    <p>Rendez-vous à partir de 19h.</p>
+    <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
+    {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
+  </div>
+{% endif %}
+
 {% if edition.register %}
   <div id="register" class="lead">
     <p><em>Gratuit et ouvert à tous</em></p>
     <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Signalez votre présence</a></p>
   </div>
 {% endif %}
+
 
 </header>

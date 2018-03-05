@@ -40,7 +40,7 @@ hr {
   padding: 0.15em 0.3em;
   background-color: $action-color;
   color: $base-background-color;
-  @include transform(rotate(11.25deg));
+  transform: rotate(11.25deg);
 }
 
 .main-footer {
@@ -55,8 +55,8 @@ hr {
 .main-footer,
 .main-header {
   background: $whitesmoke;
-  @include background-image(linear-gradient(#fdfdfd 0, $whitesmoke 100%, transparent 100%));
-  padding: $base-spacing 0;
+  background: linear-gradient(#fdfdfd 0, $whitesmoke 100%);
+  padding: 0 0 $base-spacing 0;
 }
 
 .main-footer,

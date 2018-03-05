@@ -17,19 +17,14 @@
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+}
 
-  &:hover,
-  &:focus {
-    background-color: shade($action-color, 20%);
-    color: #fff;
-  }
+#{$all-buttons-focus},
+#{$all-buttons-hover} {
+  background-color: shade($action-color, 20%);
+  color: #fff;
+}
 
-  &:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
-
-    &:hover {
-      background-color: $action-color;
-    }
-  }
+#{$all-buttons-hover} {
+  background-color: $action-color;
 }

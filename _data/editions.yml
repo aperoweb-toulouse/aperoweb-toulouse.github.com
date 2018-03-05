@@ -359,12 +359,11 @@
   venue: Cafe_Ginette
   description: |
      Apéro estival au café Ginette.
-- date: 2017-09-04
 - date: 2018-03-16
   venue: Harry_Cow
   description: |
     Recent years have seen a shift in technical architectures. Building complex services for the web used to be just that – complex. Projects might have demanded a broad range of specialist skills which could stretch even the fullest of full-stack developers. These days we have a growing number of options for how we design, build and maintain the systems which keep our web sites and applications alive.
-    
+
     This talk will look at ways to make use of emerging tools and services which can deliver surprisingly rich features and capabilities without maintaining expensive and complex infrastructure. We’ll talk about the benefits in keeping your stack simple, in using the expertise of others, and we'll examine the performance and security benefits of JAMstack and microservices.
   register: https://www.meetup.com/fr-FR/JAMstack-Toulouse/events/246940796/
   talks:
@@ -375,10 +374,3 @@
     speaker_url: "https://www.hawksworx.com/",
     slides: "https://speakerdeck.com/philhawksworth"
     }
-
-
-
-
-
-
-

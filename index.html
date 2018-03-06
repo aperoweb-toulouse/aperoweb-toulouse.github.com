@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conférences et échanges entre toulousains qui font du Web
-description: "Prochain meetup le vendredi 16 mars à 19h chez Harry Cow."
+description: "Prochain meetup le vendredi 16 mars à 19h30 chez Harry Cow."
 ---
 
 <a name="next-edition"></a>
@@ -9,9 +9,12 @@ description: "Prochain meetup le vendredi 16 mars à 19h chez Harry Cow."
 <header class="next-edition__header">
 {% assign edition = site.data.editions | last %}
 
-<h1 class="next-edition__next lead">Prochaine rencontre :<br/>
+<h1 class="next-edition__next lead"><a href="https://www.meetup.com/fr-FR/JAMstack-Toulouse/events/246940796/">Meetup JAMStack</a><br/>
 {% include date_fr.html date=edition.date %} </h1>
 
+<div class="next-edition__description">
+  {{ edition.description | markdownify }}
+</div>
 
 {% if edition.talks %}
   {% for talk in edition.talks %}
@@ -20,12 +23,9 @@ description: "Prochain meetup le vendredi 16 mars à 19h chez Harry Cow."
         <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
         {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
       {% endif %}
+      {{ talk["description"] | markdownify }}
   {% endfor %}
 {% endif %}
-
-<div class="next-edition__description">
-  {{ edition.description | markdownify }}
-</div>
 
 {% if edition.image %}
  <figure class="next-edition_image lead">

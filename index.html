@@ -36,7 +36,7 @@ description: "Prochain meetup le vendredi 16 mars à 19h30 chez Harry Cow."
 {% if edition.venue %}
   <div class="next-edition__venue">
     {% assign venue = site.data.venues[edition.venue] %}
-    <p>Rendez-vous à partir de 19h.</p>
+    <p>Rendez-vous à partir de 19h30.</p>
     <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
     {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
   </div>

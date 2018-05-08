@@ -12,8 +12,6 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-task default: "preview"
-
 desc "Suppression des fichiers générés"
 task :clean do
   puts "Suppression des fichiers générés…".bold
@@ -21,7 +19,7 @@ task :clean do
 end
 
 desc "Génération du site"
-task build: :clean do
+task :build do
   puts "Génération du site…".bold
   Jekyll::Commands::Build.process({})
 end
@@ -34,7 +32,7 @@ task preview: :clean do
     serving: true,
     watch: true,
     incremental: true,
-    livereload: true
+    livereload: true,
   }
   Jekyll::Commands::Build.process(options)
   Jekyll::Commands::Serve.process(options)
@@ -47,3 +45,5 @@ task test: :build do
                                          check_html: true,
                                          parallel: { in_processes: 3 }).run
 end
+
+task default: "build"

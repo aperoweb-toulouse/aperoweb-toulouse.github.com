@@ -5,49 +5,47 @@ description: "Dernier meetup le vendredi 16 mars à 19h30 chez Harry Cow."
 ---
 
 <a name="next-edition"></a>
-
 <header class="next-edition__header">
-{% assign edition = site.data.editions | last %}
+  {% assign edition = site.data.editions | last %}
+  <h1 class="next-edition__next lead">{% include date_fr.html date=edition.date %}</h1>
 
-<h1 class="next-edition__next lead"><a href="https://www.meetup.com/fr-FR/JAMstack-Toulouse/events/246940796/">Meetup JAMStack</a><br/>
-{% include date_fr.html date=edition.date %} </h1>
-
-<div class="next-edition__description">
-  {{ edition.description | markdownify }}
-</div>
-
-{% if edition.talks %}
-  {% for talk in edition.talks %}
-      <h1 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h1>
-      {% if talk["speaker"] != "" %}
-        <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
-        {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
-      {% endif %}
-      {{ talk["description"] | markdownify }}
-  {% endfor %}
-{% endif %}
-
-{% if edition.image %}
- <figure class="next-edition_image lead">
-   <a href="{{ edition.link }}"><img src="{{ edition.image }}" alt=""></a>
- </figure>
-{% endif %}
-
-{% if edition.venue %}
-  <div class="next-edition__venue">
-    {% assign venue = site.data.venues[edition.venue] %}
-    <p>Rendez-vous à partir de 19h30.</p>
-    <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
-    {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
+  {% if edition.description %}
+  <div class="next-edition__description">
+    {{ edition.description | markdownify }}
   </div>
-{% endif %}
+  {% endif %}
 
-{% if edition.register %}
-  <div id="register" class="lead">
-    <p><em>Gratuit et ouvert à tous</em></p>
-    <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Signalez votre présence</a></p>
-  </div>
-{% endif %}
+  {% if edition.talks %}
+    {% for talk in edition.talks %}
+        <h1 class="next-edition__title">{{ talk["title"] | default: "Sujet en cours de préparation" }}</h1>
+        {% if talk["speaker"] != "" %}
+          <h3 class="next-edition__speaker">animé par <a href="{{ talk["speaker_url"] }}">{{ talk["speaker"] }}</a>
+          {% if talk["position"] != "" %}, {{ talk["position"] }}</h3>{% endif %}
+        {% endif %}
+        {{ talk["description"] | markdownify }}
+    {% endfor %}
+  {% endif %}
 
+  {% if edition.image %}
+   <figure class="next-edition_image lead">
+     <a href="{{ edition.link }}"><img src="{{ edition.image }}" alt=""></a>
+   </figure>
+  {% endif %}
+
+  {% if edition.venue %}
+    <div class="next-edition__venue">
+      {% assign venue = site.data.venues[edition.venue] %}
+      <p>Rendez-vous à partir de 19h30.</p>
+      <p>{% if venue.url %}<a href="{{ venue.url }}">{% endif %}{{ venue.name }}{% if venue.url %}</a>, {% endif %}{{ venue.address }}</p>
+      {% if venue.metro %}<p>Métro : {{ venue.metro }}</p>{% endif %}
+    </div>
+  {% endif %}
+
+  {% if edition.register %}
+    <div id="register" class="lead">
+      <p><em>Gratuit et ouvert à tous</em></p>
+      <p><a href="{{ edition.register }}" class="btn complementary" ga-on="click" ga-event-category="call-to-action" ga-event-action="register">Signalez votre présence</a></p>
+    </div>
+  {% endif %}
 
 </header>

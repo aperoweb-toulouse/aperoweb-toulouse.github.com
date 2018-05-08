@@ -360,37 +360,31 @@
   description: |
     Apéro estival au café Ginette.
 - date: 2018-03-16T19:30
+  description: |
+    Martyn nous montre comment ajouter une recherche performante sur un site Jekyll en moins de 30 minutes.
+  talks:
+  - {
+   title: Adding Search to your stack,
+   description: "Démo : comment ajouter une recherche performante sur un site Jekyll.",
+   speaker: Martyn Davies,
+   position: Developer relation chez Algolia,
+   speaker_url: "https://twitter.com/martynd",
+   slides: "https://www.youtube.com/watch?v=mnySRW94NL4"
+   }
+- date: 2018-03-16T19:30
   venue: Harry_Cow
   title: Meetup JAMStack
   description: |
-    Avec la prolifération des APIs et des plateformes SaaS, de nouveaux worflows de
-    développement permettent aux développeurs front-end et aux webdesigners de ne
-    plus dépendre d'un CMS monolithique pour manipuler des données.
+    Phil explique pourquoi s'appuyer sur des services pour déployer automatiquement au plus tôt, sans stress.
 
-    Nous recevrons deux acteurs internationaux majeurs de ce changement de paradigme.
-    [Netlify](https://netlify.com) est une plateforme d'intégration de déploiement
-    pour des sites servis en statique, donc performants et sécurisés.
-    [Algolia](https://algolia.com) est une plateforme qui vous permet d'intégrer une
-    recherche très performante sur votre site.
-
-    Les deux startups basées à San Francisco ont levé plusieurs millions d'euros récemment, signe de l'intérêt grandissant pour ces solutions.
-    Venus spécialiement de Londres, nous aurons la chance d'accueillir Phil et Martyn pour deux conférences inédites en France.
+    <iframe width="100%" height="420" src="https://www.youtube.com/embed/dphhk_7eqGw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   register: "https://www.meetup.com/fr-FR/JAMstack-Toulouse/events/246940796/"
   talks:
   - {
     title: Next Wave Infrastructure,
-    description: "Recent years have seen a shift in technical architectures. Building complex services for the web used to be just that – complex. Projects might have demanded a broad range of specialist skills which could stretch even the fullest of full-stack developers. These days we have a growing number of options for how we design, build and maintain the systems which keep our web sites and applications alive.
-    This talk will look at ways to make use of emerging tools and services which can deliver surprisingly rich features and capabilities without maintaining expensive and complex infrastructure. We’ll talk about the benefits in keeping your stack simple, in using the expertise of others, and we'll examine the performance and security benefits of JAMstack and microservices.",
+    description: "S'appuyer sur des services pour déployer sans stress présente bien des avantages",
     speaker: Phil Hawksworth,
     position: Developer relation chez Netlify,
     speaker_url: "https://www.hawksworx.com/",
-    slides: "https://speakerdeck.com/philhawksworth"
+    slides: "https://www.youtube.com/watch?v=dphhk_7eqGw"
     }
-  - {
-   title: Adding Search to your stack,
-   description: "Being able to dig deep into content, or find specific items is core to a great user experience, long session times, and being generally awesome. In this talk we'll look at how search fits into the static sites world, what it can be used for and see how simple it is to add it to popular static site frameworks using Algolia and a prayer to the live coding gods.",
-   speaker: Martyn Davies,
-   position: Developer relation chez Algolia,
-   speaker_url: "https://twitter.com/martynd",
-   slides: ""
-   }

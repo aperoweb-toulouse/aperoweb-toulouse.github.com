@@ -195,7 +195,7 @@
   talks:
   - {
       speaker: "Frank Taillandier",
-      speaker_url: "http://frank.taillandier.me",
+      speaker_url: "https://frank.taillandier.me",
       title: "La mouvance statique",
       slides: "https://speakerdeck.com/dirtyf/keep-it-static-stupid"
     }
